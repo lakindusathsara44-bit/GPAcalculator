@@ -117,10 +117,11 @@
         </div>
         <button id="addSubject" type="button">＋ Add Subject</button>
       </div>
+      <datalist id="subjectCatalog"></datalist>
       <div class="table-wrap">
         <table>
           <thead>
-            <tr><th>Subject name</th><th>Credits</th><th>Grade</th><th>Grade points</th><th>Action</th></tr>
+            <tr><th>Subject name (search)</th><th>Module code</th><th>Credits</th><th>Grade</th><th>Grade points</th><th>Action</th></tr>
           </thead>
           <tbody id="subjectRows"></tbody>
         </table>
@@ -154,6 +155,18 @@
     (() => {
       'use strict';
       const STORAGE_KEY = 'hnditGpaCalculator.subjects.v1';
+      // HNDIT subject catalogue transcribed from SLIATE's published HNDIT curriculum/LMS.
+      const subjectCatalogue = [["HNDIT1012","Visual Application Programming",4,"Semester 1"],["HNDIT1022","Web Design",4,"Semester 1"],["HNDIT1032","Computer and Network Systems",3,"Semester 1"],["HNDIT1042","Information Management and Information Systems",4,"Semester 1"],["HNDIT1052","ICT Project (Individual)",3,"Semester 1"],["HNDIT1062","Communication Skills",2,"Semester 1"],["HNDIT2012","Fundamentals of Programming",4,"Semester 2"],["HNDIT2022","Software Development",3,"Semester 2"],["HNDIT2032","System Analysis and Design",3,"Semester 2"],["HNDIT2042","Data Communication and Computer Networks",3,"Semester 2"],["HNDIT2052","Principles of User Interface Design",3,"Semester 2"],["HNDIT2062","ICT Project (Group)",2,"Semester 2"],["HNDIT2072","Technical Writing",2,"Semester 2"],["HNDIT2082","Human Value & Professional Ethics",1,"Semester 2"],["HNDIT3012","Object Oriented Programming",4,"Semester 3"],["HNDIT3022","Web Programming",3,"Semester 3"],["HNDIT3032","Data Structures and Algorithms",3,"Semester 3"],["HNDIT3042","Database Management Systems",3,"Semester 3"],["HNDIT3052","Operating Systems",3,"Semester 3"],["HNDIT3062","Information and Computer Security",3,"Semester 3"],["HNDIT3072","Statistics for IT",3,"Semester 3"],["HNDIT4012","Software Engineering",3,"Semester 4"],["HNDIT4022","Software Quality Assurance",3,"Semester 4"],["HNDIT4032","IT Project Management",3,"Semester 4"],["HNDIT4042","Professional World",2,"Semester 4"],["HNDIT4052","Programming Individual Project",6,"Semester 4"],["HNDIT4212","Machine Learning",3,"Semester 4"],["HNDIT4222","Business Analysis Practice",3,"Semester 4"],["HNDIT4232","Enterprise Architecture",3,"Elective"],["HNDIT4242","Computer Services Management",3,"Elective"],["HNDIT4252","Mobile Application Development",3,"Elective"]];
+      const subjectLookup = new Map(subjectCatalogue.map(([code, name, credits, semester]) =>
+        [name.toLocaleLowerCase(), { code, name, credits, semester }]
+      ));
+      const catalogueList = document.getElementById('subjectCatalog');
+      subjectCatalogue.forEach(([code, name, credits, semester]) => {
+        const option = document.createElement('option');
+        option.value = name;
+        option.label = code + ' · ' + credits + ' credits · ' + semester;
+        catalogueList.append(option);
+      });
       const gradePoints = {
         'A+': 4.00, 'A': 4.00, 'A-': 3.70,
         'B+': 3.30, 'B': 3.00, 'B-': 2.70,
@@ -174,6 +187,7 @@
           if (!Array.isArray(parsed)) return [];
           return parsed.map(item => ({
             name: typeof item.name === 'string' ? item.name : '',
+            code: typeof item.code === 'string' ? item.code : '',
             credits: item.credits === '' || item.credits == null ? '' : Number(item.credits),
             grade: Object.prototype.hasOwnProperty.call(gradePoints, item.grade) ? item.grade : ''
           }));
@@ -226,15 +240,31 @@
           const tr = document.createElement('tr');
 
           const nameCell = document.createElement('td');
-          const nameInput = createCellInput(subject.name, 'text', 'subject-input', 'e.g. ICT Project');
-          nameInput.maxLength = 100;
-          nameInput.setAttribute('aria-label', 'Subject name');
+          const nameInput = createCellInput(subject.name, 'text', 'subject-input', 'Search or select an HNDIT subject');
+          nameInput.setAttribute('list', 'subjectCatalog');
+          nameInput.maxLength = 120;
+          nameInput.setAttribute('aria-label', 'Search or select HNDIT subject');
           nameInput.addEventListener('input', () => {
             subjects[index].name = nameInput.value;
+            const match = subjectLookup.get(nameInput.value.trim().toLocaleLowerCase());
+            if (match) {
+              subjects[index].name = match.name;
+              subjects[index].code = match.code;
+              subjects[index].credits = match.credits;
+              creditInput.value = String(match.credits);
+              codeCell.textContent = match.code;
+              scheduleSave();
+            } else {
+              subjects[index].code = '';
+              codeCell.textContent = '—';
+            }
             scheduleSave();
             calculate();
           });
           nameCell.append(nameInput);
+
+          const codeCell = document.createElement('td');
+          codeCell.textContent = subject.code || (subjectLookup.get((subject.name || '').trim().toLocaleLowerCase()) || {}).code || '—';
 
           const creditCell = document.createElement('td');
           const creditInput = createCellInput(subject.credits, 'number', 'credits-input', 'Credits');
@@ -286,7 +316,7 @@
           });
           actionCell.append(removeButton);
 
-          tr.append(nameCell, creditCell, gradeCell, pointCell, actionCell);
+          tr.append(nameCell, codeCell, creditCell, gradeCell, pointCell, actionCell);
           rows.append(tr);
         });
         calculate();
