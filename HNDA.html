@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#08090c"><title>HNDA Modules | SLIATE GPA Calculator</title><style>
+:root{color-scheme:dark;--bg:#08090c;--panel:#111318;--panel2:#181b22;--line:#292d36;--text:#f3f4f6;--muted:#a0a5b0;--accent:#d7dbe2;--danger:#ef7777}
+*{box-sizing:border-box}body{margin:0;min-height:100vh;padding:26px 15px 48px;background:radial-gradient(ellipse at top,#17191e 0,#08090c 52%);color:var(--text);font:15px/1.6 system-ui,-apple-system,Segoe UI,sans-serif}
+.wrap{width:min(100%,1000px);margin:auto}a{color:#fff}.eyebrow{font-size:11px;letter-spacing:.18em;text-transform:uppercase;color:#bfc4ce;font-weight:800}h1{font-size:clamp(28px,5vw,44px);line-height:1.15;margin:8px 0}p{color:var(--muted)}.panel{background:var(--panel);border:1px solid var(--line);border-radius:16px;padding:20px;margin:18px 0;box-shadow:0 18px 50px #0007}
+.toolbar{display:flex;gap:10px;flex-wrap:wrap;align-items:center}.toolbar input{flex:1;min-width:220px}
+input,select{width:100%;background:#090a0e;color:var(--text);border:1px solid #353943;border-radius:9px;padding:12px;font:inherit}input:focus,select:focus{outline:2px solid #aeb4bf;outline-offset:1px}
+.btn{display:inline-flex;align-items:center;justify-content:center;text-decoration:none;border:1px solid #555b66;background:#e8e9ec;color:#090a0c;border-radius:10px;padding:11px 16px;font-weight:800;cursor:pointer}.btn.alt{background:#171a20;color:#f4f4f5;border-color:#363b45}.btn:hover{filter:brightness(1.1)}
+.list{display:grid;gap:8px;margin-top:16px}.item{display:flex;gap:12px;align-items:center;justify-content:space-between;padding:12px 13px;background:#0b0d11;border:1px solid #252932;border-radius:10px}.item .code{font:12px ui-monospace,monospace;color:#b6bbc5;min-width:110px}.item .name{flex:1}.count{font-size:12px;color:#a5aab4}.note{font-size:12px;color:#8e949f}.actions{display:flex;gap:10px;flex-wrap:wrap;margin-top:18px}
+@media(max-width:600px){body{padding:18px 10px 35px}.panel{padding:14px}.item{align-items:flex-start;flex-wrap:wrap}.item .code{min-width:100px}}
+</style></head>
+<body><main class="wrap"><div class="eyebrow">SLIATE academic toolkit · module directory</div><h1>Higher National Diploma in Accountancy</h1><p>Search the module names and codes listed in the SLIATE Learning Management System. Select this course in the GPA calculator to add results.</p>
+<section class="panel"><div class="toolbar"><input id="search" type="search" placeholder="Search module name or code…" aria-label="Search modules"><span class="count" id="count">40 modules</span></div><div class="list" id="modules"><div class="item" data-search="da 1113 financial accounting"><span class="code">DA 1113</span><span class="name">Financial Accounting</span></div>
+<div class="item" data-search="da 1123 business mathematics"><span class="code">DA 1123</span><span class="name">Business Mathematics</span></div>
+<div class="item" data-search="da 1133 business economics"><span class="code">DA 1133</span><span class="name">Business Economics</span></div>
+<div class="item" data-search="da 1142 global business environment"><span class="code">DA 1142</span><span class="name">Global Business Environment</span></div>
+<div class="item" data-search="da 1153 business communication"><span class="code">DA 1153</span><span class="name">Business Communication</span></div>
+<div class="item" data-search="da 1161 socialization activities"><span class="code">DA 1161</span><span class="name">Socialization Activities</span></div>
+<div class="item" data-search="da 1213 financial accounting ii"><span class="code">DA 1213</span><span class="name">Financial Accounting II</span></div>
+<div class="item" data-search="da 1223 management accounting"><span class="code">DA 1223</span><span class="name">Management Accounting</span></div>
+<div class="item" data-search="da 1232 theory of managing organizations"><span class="code">DA 1232</span><span class="name">Theory of Managing Organizations</span></div>
+<div class="item" data-search="da 1242 business law"><span class="code">DA 1242</span><span class="name">Business Law</span></div>
+<div class="item" data-search="da 1252 introduction to ict and networks"><span class="code">DA 1252</span><span class="name">Introduction to ICT and Networks</span></div>
+<div class="item" data-search="da 1263 business communication ii"><span class="code">DA 1263</span><span class="name">Business Communication II</span></div>
+<div class="item" data-search="da 1271 community work project"><span class="code">DA 1271</span><span class="name">Community Work Project</span></div>
+<div class="item" data-search="da 2313 advanced financial accounting"><span class="code">DA 2313</span><span class="name">Advanced Financial Accounting</span></div>
+<div class="item" data-search="da 2323 business statistics"><span class="code">DA 2323</span><span class="name">Business Statistics</span></div>
+<div class="item" data-search="da 2332 human resources management and ob"><span class="code">DA 2332</span><span class="name">Human Resources Management and OB</span></div>
+<div class="item" data-search="da 2343 auditing and assurance"><span class="code">DA 2343</span><span class="name">Auditing and Assurance</span></div>
+<div class="item" data-search="da 2353 financial modelling"><span class="code">DA 2353</span><span class="name">Financial Modelling</span></div>
+<div class="item" data-search="da 2362 managing information system"><span class="code">DA 2362</span><span class="name">Managing Information System</span></div>
+<div class="item" data-search="da 2413 advanced management accounting"><span class="code">DA 2413</span><span class="name">Advanced Management Accounting</span></div>
+<div class="item" data-search="da 2422 marketing management"><span class="code">DA 2422</span><span class="name">Marketing Management</span></div>
+<div class="item" data-search="da 2432 operations management"><span class="code">DA 2432</span><span class="name">Operations Management</span></div>
+<div class="item" data-search="da 2443 taxation"><span class="code">DA 2443</span><span class="name">Taxation</span></div>
+<div class="item" data-search="da 2452 data analytics"><span class="code">DA 2452</span><span class="name">Data Analytics</span></div>
+<div class="item" data-search="da 2463 computer based accounting"><span class="code">DA 2463</span><span class="name">Computer Based Accounting</span></div>
+<div class="item" data-search="da 3513 financial reporting standards"><span class="code">DA 3513</span><span class="name">Financial Reporting Standards</span></div>
+<div class="item" data-search="da 3523 financial management"><span class="code">DA 3523</span><span class="name">Financial Management</span></div>
+<div class="item" data-search="da 3533 business researching and statistical data analysis"><span class="code">DA 3533</span><span class="name">Business Researching and Statistical Data Analysis</span></div>
+<div class="item" data-search="da 3543 strategic management accounting"><span class="code">DA 3543</span><span class="name">Strategic Management Accounting</span></div>
+<div class="item" data-search="da 3613 advanced auditing and assurance"><span class="code">DA 3613</span><span class="name">Advanced Auditing and Assurance</span></div>
+<div class="item" data-search="da 3622 investment and portfolio management"><span class="code">DA 3622</span><span class="name">Investment and Portfolio Management</span></div>
+<div class="item" data-search="da 3633 advanced taxation"><span class="code">DA 3633</span><span class="name">Advanced Taxation</span></div>
+<div class="item" data-search="da 3642 corporate law"><span class="code">DA 3642</span><span class="name">Corporate Law</span></div>
+<div class="item" data-search="da 3656 research project"><span class="code">DA 3656</span><span class="name">Research Project</span></div>
+<div class="item" data-search="da 4712 cost management"><span class="code">DA 4712</span><span class="name">Cost Management</span></div>
+<div class="item" data-search="da 4722 business process reengineering"><span class="code">DA 4722</span><span class="name">Business Process Reengineering</span></div>
+<div class="item" data-search="da 4732 public sector accounting"><span class="code">DA 4732</span><span class="name">Public Sector Accounting</span></div>
+<div class="item" data-search="da 4743 enterprise resource planning systems"><span class="code">DA 4743</span><span class="name">Enterprise Resource Planning Systems</span></div>
+<div class="item" data-search="da 4753 project management"><span class="code">DA 4753</span><span class="name">Project Management</span></div>
+<div class="item" data-search="da 4813 corporate reporting practice"><span class="code">DA 4813</span><span class="name">Corporate Reporting Practice</span></div></div><p class="note">Source: SLIATE LMS course category. This directory reflects modules visible in the published LMS listing; course batches and curriculum revisions may differ. Credit values are not inferred here—enter the credits shown in your own official course documents.</p><div class="actions"><a class="btn" href="Cal.html?course=HNDA">Calculate GPA for this course →</a><a class="btn alt" href="index.html">All HND courses</a></div></section></main>
+<script>const q=document.getElementById('search'),items=[...document.querySelectorAll('.item')],count=document.getElementById('count');q.addEventListener('input',()=>{const v=q.value.trim().toLowerCase();let n=0;items.forEach(el=>{const show=el.dataset.search.includes(v);el.hidden=!show;if(show)n++});count.textContent=n+' of '+items.length+' modules'});</script></body></html>
