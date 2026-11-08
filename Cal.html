@@ -59,7 +59,41 @@
     .actions { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 17px; }
     .status { color: var(--green); font-size: 13px; margin-top: 12px; min-height: 20px; }
     .footnote { font-size: 12px; color: var(--muted); margin-top: 14px; }
-    @media (max-width: 620px) {
+
+    /* Motion and GPA feedback */
+    html { scroll-behavior: smooth; }
+    .panel { animation: panel-enter .65s both; transition: border-color .25s, transform .25s, box-shadow .25s; }
+    .panel:nth-of-type(2) { animation-delay: .08s; }
+    button, input, select, .metric { transition: transform .2s ease, border-color .2s ease, box-shadow .2s ease, background .2s ease; }
+    button:hover { transform: translateY(-2px); box-shadow: 0 7px 18px #0005; }
+    button:active { transform: scale(.97); }
+    tbody tr { animation: row-in .3s ease both; }
+    .metric:first-child { position: relative; overflow: hidden; }
+    .metric:first-child::after { content: ""; position: absolute; inset: 0; opacity: 0; pointer-events: none; }
+    #gpaValue { transition: color .35s, text-shadow .35s; }
+    .gpa-feedback { margin-top: 13px; padding: 13px 15px; border: 1px solid var(--line); border-radius: 12px; background: #080d16; display: flex; align-items: center; gap: 11px; min-height: 58px; transition: border-color .35s, background .35s, transform .35s; }
+    .feedback-icon { font-size: 25px; width: 34px; text-align: center; }
+    .feedback-copy strong { display: block; font-size: 14px; }
+    .feedback-copy span { color: var(--muted); font-size: 12px; }
+    .gpa-excellent { border-color: #d6d6d6; background: linear-gradient(100deg,#18283c,#101722); animation: excellent-glow 1.8s ease-in-out infinite alternate; }
+    .gpa-excellent #gpaValue { color: #fff; text-shadow: 0 0 18px #fff9; }
+    .gpa-good { border-color: #668bb9; background: #142338; }
+    .gpa-good #gpaValue { color: #b8d7ff; }
+    .gpa-average { border-color: #526174; background: #171f2c; }
+    .gpa-average #gpaValue { color: #d8e0ea; }
+    .gpa-low { border-color: #a3a3a3; background: #202127; animation: low-pulse 1.8s ease-in-out 2; }
+    .gpa-low #gpaValue { color: #fff; }
+    .gpa-empty { border-color: var(--line); }
+    .metric-pop { animation: metric-pop .45s ease; }
+    .sparkle { position: fixed; z-index: 10; pointer-events: none; font-size: 18px; animation: sparkle-fly 1.3s ease-out forwards; }
+    @keyframes panel-enter { from { opacity: 0; transform: translateY(16px); } to { opacity: 1; transform: translateY(0); } }
+    @keyframes row-in { from { opacity: 0; transform: translateX(-8px); } to { opacity: 1; transform: translateX(0); } }
+    @keyframes metric-pop { 0% { transform: scale(1); } 45% { transform: scale(1.055); } 100% { transform: scale(1); } }
+    @keyframes excellent-glow { from { box-shadow: 0 0 0 #fff0; } to { box-shadow: 0 0 22px #dcecff24; } }
+    @keyframes low-pulse { 0%,100% { transform: translateX(0); } 25% { transform: translateX(-3px); } 50% { transform: translateX(3px); } 75% { transform: translateX(-2px); } }
+    @keyframes sparkle-fly { from { opacity: 1; transform: translate(0,0) scale(.5) rotate(0); } to { opacity: 0; transform: translate(var(--dx),var(--dy)) scale(1.4) rotate(150deg); } }
+    @media (prefers-reduced-motion: reduce) { *, *::before, *::after { scroll-behavior: auto !important; animation-duration: .01ms !important; animation-iteration-count: 1 !important; transition-duration: .01ms !important; } }
+\n    @media (max-width: 620px) {
       body { padding: 20px 11px 35px; }
       .panel { padding: 15px; }
       .summary { grid-template-columns: 1fr; }
@@ -262,23 +296,64 @@
         }
       }
 
+      let previousBand = 'empty';
       function calculate() {
         let weightedTotal = 0;
         let totalCredits = 0;
-        let validSubjects = 0;
         subjects.forEach(subject => {
           const credits = Number(subject.credits);
           if (subject.name.trim() && Number.isFinite(credits) && credits > 0 &&
               Object.prototype.hasOwnProperty.call(gradePoints, subject.grade)) {
             weightedTotal += credits * gradePoints[subject.grade];
             totalCredits += credits;
-            validSubjects++;
           }
         });
-        document.getElementById('gpaValue').textContent =
-          totalCredits ? (weightedTotal / totalCredits).toFixed(2) : '0.00';
+        const gpa = totalCredits ? weightedTotal / totalCredits : 0;
+        document.getElementById('gpaValue').textContent = gpa.toFixed(2);
         document.getElementById('creditValue').textContent = totalCredits.toFixed(2);
         document.getElementById('subjectCount').textContent = String(subjects.length);
+
+        let band = 'empty', icon = '◎', title = 'Add your results', message = 'Enter subjects, credits and grades to calculate your GPA.';
+        if (totalCredits > 0) {
+          if (gpa >= 3.50) {
+            band = 'excellent'; icon = '✦'; title = 'Excellent GPA!'; message = 'Outstanding performance. Keep up the great work!';
+          } else if (gpa >= 3.00) {
+            band = 'good'; icon = '★'; title = 'Good GPA'; message = 'Strong result. A little more effort can take you even higher.';
+          } else if (gpa >= 2.00) {
+            band = 'average'; icon = '◆'; title = 'Keep improving'; message = 'You are making progress. Focus on improving your next results.';
+          } else {
+            band = 'low'; icon = '↗'; title = 'Room to improve'; message = 'Review the difficult subjects and make a plan for your next assessments.';
+          }
+        }
+        const feedback = document.getElementById('gpaFeedback');
+        feedback.className = 'gpa-feedback gpa-' + band;
+        document.getElementById('feedbackIcon').textContent = icon;
+        document.getElementById('feedbackTitle').textContent = title;
+        document.getElementById('feedbackText').textContent = message;
+        if (band !== previousBand && band === 'excellent' && !window.matchMedia('(prefers-reduced-motion: reduce)').matches) launchSparkles();
+        previousBand = band;
+        if (totalCredits > 0) {
+          const metric = document.querySelector('.metric:first-child');
+          metric.classList.remove('metric-pop');
+          void metric.offsetWidth;
+          metric.classList.add('metric-pop');
+        }
+      }
+
+      function launchSparkles() {
+        const symbols = ['✦', '✧', '·', '✦', '✧'];
+        const rect = document.getElementById('gpaValue').getBoundingClientRect();
+        for (let i = 0; i < 13; i++) {
+          const particle = document.createElement('span');
+          particle.className = 'sparkle';
+          particle.textContent = symbols[i % symbols.length];
+          particle.style.left = (rect.left + rect.width / 2) + 'px';
+          particle.style.top = (rect.top + rect.height / 2) + 'px';
+          particle.style.setProperty('--dx', (Math.random() * 170 - 85) + 'px');
+          particle.style.setProperty('--dy', (Math.random() * -130 - 15) + 'px');
+          document.body.append(particle);
+          particle.addEventListener('animationend', () => particle.remove(), { once: true });
+        }
       }
 
       document.getElementById('addSubject').addEventListener('click', () => {
