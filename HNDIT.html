@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#08090c"><title>HNDIT Modules | SLIATE GPA Calculator</title><style>
+:root{color-scheme:dark;--bg:#08090c;--panel:#111318;--panel2:#181b22;--line:#292d36;--text:#f3f4f6;--muted:#a0a5b0;--accent:#d7dbe2;--danger:#ef7777}
+*{box-sizing:border-box}body{margin:0;min-height:100vh;padding:26px 15px 48px;background:radial-gradient(ellipse at top,#17191e 0,#08090c 52%);color:var(--text);font:15px/1.6 system-ui,-apple-system,Segoe UI,sans-serif}
+.wrap{width:min(100%,1000px);margin:auto}a{color:#fff}.eyebrow{font-size:11px;letter-spacing:.18em;text-transform:uppercase;color:#bfc4ce;font-weight:800}h1{font-size:clamp(28px,5vw,44px);line-height:1.15;margin:8px 0}p{color:var(--muted)}.panel{background:var(--panel);border:1px solid var(--line);border-radius:16px;padding:20px;margin:18px 0;box-shadow:0 18px 50px #0007}
+.toolbar{display:flex;gap:10px;flex-wrap:wrap;align-items:center}.toolbar input{flex:1;min-width:220px}
+input,select{width:100%;background:#090a0e;color:var(--text);border:1px solid #353943;border-radius:9px;padding:12px;font:inherit}input:focus,select:focus{outline:2px solid #aeb4bf;outline-offset:1px}
+.btn{display:inline-flex;align-items:center;justify-content:center;text-decoration:none;border:1px solid #555b66;background:#e8e9ec;color:#090a0c;border-radius:10px;padding:11px 16px;font-weight:800;cursor:pointer}.btn.alt{background:#171a20;color:#f4f4f5;border-color:#363b45}.btn:hover{filter:brightness(1.1)}
+.list{display:grid;gap:8px;margin-top:16px}.item{display:flex;gap:12px;align-items:center;justify-content:space-between;padding:12px 13px;background:#0b0d11;border:1px solid #252932;border-radius:10px}.item .code{font:12px ui-monospace,monospace;color:#b6bbc5;min-width:110px}.item .name{flex:1}.count{font-size:12px;color:#a5aab4}.note{font-size:12px;color:#8e949f}.actions{display:flex;gap:10px;flex-wrap:wrap;margin-top:18px}
+@media(max-width:600px){body{padding:18px 10px 35px}.panel{padding:14px}.item{align-items:flex-start;flex-wrap:wrap}.item .code{min-width:100px}}
+</style></head>
+<body><main class="wrap"><div class="eyebrow">SLIATE academic toolkit · module directory</div><h1>Higher National Diploma in Information Technology</h1><p>Search the module names and codes listed in the SLIATE Learning Management System. Select this course in the GPA calculator to add results.</p>
+<section class="panel"><div class="toolbar"><input id="search" type="search" placeholder="Search module name or code…" aria-label="Search modules"><span class="count" id="count">31 modules</span></div><div class="list" id="modules"><div class="item" data-search="hndit1012 visual application programming"><span class="code">HNDIT1012</span><span class="name">Visual Application Programming</span></div>
+<div class="item" data-search="hndit1022 web design"><span class="code">HNDIT1022</span><span class="name">Web Design</span></div>
+<div class="item" data-search="hndit1032 computer and network systems"><span class="code">HNDIT1032</span><span class="name">Computer and Network Systems</span></div>
+<div class="item" data-search="hndit1042 information management and information systems"><span class="code">HNDIT1042</span><span class="name">Information Management and Information Systems</span></div>
+<div class="item" data-search="hndit1052 ict project (individual)"><span class="code">HNDIT1052</span><span class="name">ICT Project (Individual)</span></div>
+<div class="item" data-search="hndit1062 communication skills"><span class="code">HNDIT1062</span><span class="name">Communication Skills</span></div>
+<div class="item" data-search="hndit2012 fundamentals of programming"><span class="code">HNDIT2012</span><span class="name">Fundamentals of Programming</span></div>
+<div class="item" data-search="hndit2022 software development"><span class="code">HNDIT2022</span><span class="name">Software Development</span></div>
+<div class="item" data-search="hndit2032 system analysis and design"><span class="code">HNDIT2032</span><span class="name">System Analysis and Design</span></div>
+<div class="item" data-search="hndit2042 data communication and computer networks"><span class="code">HNDIT2042</span><span class="name">Data Communication and Computer Networks</span></div>
+<div class="item" data-search="hndit2052 principles of user interface design"><span class="code">HNDIT2052</span><span class="name">Principles of User Interface Design</span></div>
+<div class="item" data-search="hndit2062 ict project (group)"><span class="code">HNDIT2062</span><span class="name">ICT Project (Group)</span></div>
+<div class="item" data-search="hndit2072 technical writing"><span class="code">HNDIT2072</span><span class="name">Technical Writing</span></div>
+<div class="item" data-search="hndit2082 human value and professionalism"><span class="code">HNDIT2082</span><span class="name">Human Value and Professionalism</span></div>
+<div class="item" data-search="hndit3012 object oriented programming"><span class="code">HNDIT3012</span><span class="name">Object Oriented Programming</span></div>
+<div class="item" data-search="hndit3022 web programming"><span class="code">HNDIT3022</span><span class="name">Web Programming</span></div>
+<div class="item" data-search="hndit3032 data structures and algorithms"><span class="code">HNDIT3032</span><span class="name">Data Structures and Algorithms</span></div>
+<div class="item" data-search="hndit3042 database management systems"><span class="code">HNDIT3042</span><span class="name">Database Management Systems</span></div>
+<div class="item" data-search="hndit3052 operating systems"><span class="code">HNDIT3052</span><span class="name">Operating Systems</span></div>
+<div class="item" data-search="hndit3062 information and computer security"><span class="code">HNDIT3062</span><span class="name">Information and Computer Security</span></div>
+<div class="item" data-search="hndit3072 statistics for it"><span class="code">HNDIT3072</span><span class="name">Statistics for IT</span></div>
+<div class="item" data-search="hndit4012 software engineering"><span class="code">HNDIT4012</span><span class="name">Software Engineering</span></div>
+<div class="item" data-search="hndit4022 software quality assurance"><span class="code">HNDIT4022</span><span class="name">Software Quality Assurance</span></div>
+<div class="item" data-search="hndit4032 it project management"><span class="code">HNDIT4032</span><span class="name">IT Project Management</span></div>
+<div class="item" data-search="hndit4042 professional world"><span class="code">HNDIT4042</span><span class="name">Professional World</span></div>
+<div class="item" data-search="hndit4212 machine learning"><span class="code">HNDIT4212</span><span class="name">Machine Learning</span></div>
+<div class="item" data-search="hndit4052 programming individual project"><span class="code">HNDIT4052</span><span class="name">Programming Individual Project</span></div>
+<div class="item" data-search="hndit4222 business analysis practice"><span class="code">HNDIT4222</span><span class="name">Business Analysis Practice</span></div>
+<div class="item" data-search="hndit4232 enterprise architecture"><span class="code">HNDIT4232</span><span class="name">Enterprise Architecture</span></div>
+<div class="item" data-search="hndit4242 computer services management"><span class="code">HNDIT4242</span><span class="name">Computer Services Management</span></div>
+<div class="item" data-search="hndit4252 mobile application development"><span class="code">HNDIT4252</span><span class="name">Mobile Application Development</span></div></div><p class="note">Source: SLIATE LMS course category. This directory reflects modules visible in the published LMS listing; course batches and curriculum revisions may differ. Credit values are not inferred here—enter the credits shown in your own official course documents.</p><div class="actions"><a class="btn" href="Cal.html?course=HNDIT">Calculate GPA for this course →</a><a class="btn alt" href="index.html">All HND courses</a></div></section></main>
+<script>const q=document.getElementById('search'),items=[...document.querySelectorAll('.item')],count=document.getElementById('count');q.addEventListener('input',()=>{const v=q.value.trim().toLowerCase();let n=0;items.forEach(el=>{const show=el.dataset.search.includes(v);el.hidden=!show;if(show)n++});count.textContent=n+' of '+items.length+' modules'});</script></body></html>
