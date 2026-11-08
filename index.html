@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#080b12">
+  <title>HNDIT GPA Calculator</title>
+  <style>
+    *{box-sizing:border-box}body{margin:0;min-height:100vh;background:radial-gradient(ellipse at 50% 0,#10213a 0,#080b12 58%);color:#f5f7fb;font:16px/1.6 system-ui,-apple-system,Segoe UI,sans-serif;display:grid;place-items:center;padding:24px}
+    main{width:min(100%,760px);text-align:center}.tag{color:#a8cfff;text-transform:uppercase;letter-spacing:.2em;font-size:12px;font-weight:800}
+    h1{font-size:clamp(34px,7vw,62px);line-height:1.08;margin:15px 0}.lead{color:#aeb8c7;max-width:560px;margin:0 auto}
+    .card{margin:34px auto 0;padding:clamp(24px,5vw,42px);background:#101722;border:1px solid #29384b;border-radius:24px;box-shadow:0 25px 80px #0008;animation:rise .7s both}
+    .mark{width:62px;height:62px;border:1px solid #60758e;border-radius:18px;display:grid;place-items:center;margin:0 auto 20px;font-size:28px;background:#17263a}
+    a{display:inline-flex;align-items:center;justify-content:center;gap:10px;margin-top:27px;padding:14px 23px;border-radius:12px;background:#f5f7fb;color:#080b12;text-decoration:none;font-weight:800;transition:transform .2s,box-shadow .2s}
+    a:hover{transform:translateY(-3px);box-shadow:0 12px 30px #fff2}a:active{transform:scale(.97)}
+    .note{font-size:12px;color:#8290a3;margin-top:22px}
+    @keyframes rise{from{opacity:0;transform:translateY(18px)}to{opacity:1;transform:translateY(0)}}
+    @media(prefers-reduced-motion:reduce){*,*::before,*::after{animation-duration:.01ms!important;transition-duration:.01ms!important}}
+  </style>
+</head>
+<body>
+  <main>
+    <div class="tag">Academic toolkit</div>
+    <h1>HNDIT GPA<br>Calculator</h1>
+    <p class="lead">Calculate and track your Grade Point Average. Add your own subjects, enter credits and grades, and your progress will be saved in this browser.</p>
+    <section class="card">
+      <div class="mark" aria-hidden="true">∑</div>
+      <h2>Your academic progress, at a glance.</h2>
+      <p class="lead">A simple GPA calculator with automatic local saving and helpful performance feedback.</p>
+      <a href="Cal.html">Open GPA Calculator <span aria-hidden="true">→</span></a>
+    </section>
+    <p class="note">Your saved calculator data stays in this browser on this device.</p>
+  </main>
+</body>
+</html>
