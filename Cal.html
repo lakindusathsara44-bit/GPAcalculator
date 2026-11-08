@@ -22,7 +22,7 @@ const gradePoints={'A+':4,'A':4,'A-':3.7,'B+':3.3,'B':3,'B-':2.7,'C+':2.3,'C':2,
 const course=document.getElementById('course'),search=document.getElementById('subjectSearch'),list=document.getElementById('subjects'),rows=document.getElementById('rows'),status=document.getElementById('status');
 let current=course.value,records=load();
 function key(){return 'sliateGpa.'+current+'.v1'}
-function load(){try{return JSON.parse(localStorage.getItem('sliateGpa.'+current+'.v1')||'[]')}catch{return []}}
+function load(){try{const saved=localStorage.getItem('sliateGpa.'+current+'.v1');if(saved)return JSON.parse(saved);if(current==='HNDIT'){const legacy=localStorage.getItem('hnditGpaCalculator.subjects.v1');if(legacy){const migrated=JSON.parse(legacy);return Array.isArray(migrated)?migrated.map(x=>({name:x.name||'',code:x.code||'',credits:x.credits??'',grade:x.grade||''})):[]}}return []}catch{return []}}
 function persist(msg='Changes saved automatically in this browser.'){try{localStorage.setItem(key(),JSON.stringify(records));status.textContent=msg}catch{status.textContent='Unable to save. Check browser storage.'}}
 function fillList(){list.replaceChildren();catalog[current].forEach(m=>{const o=document.createElement('option');o.value=m.name;o.label=m.code;list.append(o)})}
 function addRecord(){const name=search.value.trim();if(!name){search.focus();return}const match=catalog[current].find(m=>m.name.toLowerCase()===name.toLowerCase()||m.code.toLowerCase()===name.toLowerCase());records.push({name:match?match.name:name,code:match?match.code:'',credits:'',grade:''});search.value='';render();persist()}
