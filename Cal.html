@@ -131,6 +131,10 @@
         <div class="metric"><span>Total credits</span><strong id="creditValue">0.00</strong></div>
         <div class="metric"><span>Subjects added</span><strong id="subjectCount">0</strong></div>
       </div>
+      <div id="gpaFeedback" class="gpa-feedback gpa-empty" aria-live="polite">
+        <span id="feedbackIcon" class="feedback-icon">◎</span>
+        <div class="feedback-copy"><strong id="feedbackTitle">Add your results</strong><span id="feedbackText">Enter subjects, credits and grades to calculate your GPA.</span></div>
+      </div>
       <div class="actions">
         <button id="saveButton" type="button">Save my data</button>
         <button id="clearButton" class="danger" type="button">Clear all data</button>
@@ -297,6 +301,47 @@
       }
 
       let previousBand = 'empty';
+      let previousGpa = 0;
+
+      // JavaScript-powered entrance and interaction animations (Web Animations API).
+      function playMotion(element, keyframes, options = {}) {
+        if (!element || window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+        if (typeof element.animate === 'function') {
+          element.animate(keyframes, { duration: 520, easing: 'cubic-bezier(.2,.8,.2,1)', fill: 'both', ...options });
+        }
+      }
+
+      function animateNumber(element, target, decimals = 2) {
+        if (!element) return;
+        const start = Number(element.dataset.currentValue || 0);
+        const end = Number(target);
+        element.dataset.currentValue = String(end);
+        if (window.matchMedia('(prefers-reduced-motion: reduce)').matches || typeof element.animate !== 'function') {
+          element.textContent = end.toFixed(decimals);
+          return;
+        }
+        const started = performance.now();
+        const duration = 650;
+        function tick(now) {
+          const progress = Math.min(1, (now - started) / duration);
+          const eased = 1 - Math.pow(1 - progress, 3);
+          element.textContent = (start + (end - start) * eased).toFixed(decimals);
+          if (progress < 1) requestAnimationFrame(tick);
+        }
+        requestAnimationFrame(tick);
+      }
+
+      function initializePageMotion() {
+        const header = document.querySelector('header');
+        playMotion(header, [{ opacity: 0, transform: 'translateY(-18px)' }, { opacity: 1, transform: 'translateY(0)' }], { duration: 750 });
+        document.querySelectorAll('.panel').forEach((panel, index) => {
+          playMotion(panel, [{ opacity: 0, transform: 'translateY(28px) scale(.985)' }, { opacity: 1, transform: 'translateY(0) scale(1)' }], { delay: index * 140, duration: 700 });
+        });
+        document.querySelectorAll('button').forEach(button => {
+          button.addEventListener('click', () => playMotion(button, [{ transform: 'scale(1)' }, { transform: 'scale(.94)' }, { transform: 'scale(1)' }], { duration: 220 }));
+        });
+      }
+
       function calculate() {
         let weightedTotal = 0;
         let totalCredits = 0;
@@ -309,9 +354,9 @@
           }
         });
         const gpa = totalCredits ? weightedTotal / totalCredits : 0;
-        document.getElementById('gpaValue').textContent = gpa.toFixed(2);
-        document.getElementById('creditValue').textContent = totalCredits.toFixed(2);
-        document.getElementById('subjectCount').textContent = String(subjects.length);
+        animateNumber(document.getElementById('gpaValue'), gpa, 2);
+        animateNumber(document.getElementById('creditValue'), totalCredits, 2);
+        animateNumber(document.getElementById('subjectCount'), subjects.length, 0);
 
         let band = 'empty', icon = '◎', title = 'Add your results', message = 'Enter subjects, credits and grades to calculate your GPA.';
         if (totalCredits > 0) {
@@ -331,6 +376,13 @@
         document.getElementById('feedbackTitle').textContent = title;
         document.getElementById('feedbackText').textContent = message;
         if (band !== previousBand && band === 'excellent' && !window.matchMedia('(prefers-reduced-motion: reduce)').matches) launchSparkles();
+        if (band !== previousBand) {
+          playMotion(feedback, [{ opacity: .45, transform: 'translateY(8px) scale(.985)' }, { opacity: 1, transform: 'translateY(0) scale(1)' }], { duration: 420 });
+        }
+        if (gpa !== previousGpa && totalCredits > 0) {
+          playMotion(document.querySelector('.metric:first-child'), [{ transform: 'scale(1)' }, { transform: 'scale(1.07)' }, { transform: 'scale(1)' }], { duration: 480 });
+        }
+        previousGpa = gpa;
         previousBand = band;
         if (totalCredits > 0) {
           const metric = document.querySelector('.metric:first-child');
@@ -382,6 +434,7 @@
         render();
       });
 
+      initializePageMotion();
       render();
     })();
   </script>
