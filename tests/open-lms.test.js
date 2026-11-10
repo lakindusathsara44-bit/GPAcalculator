@@ -12,23 +12,24 @@ test('includes all 15 HND programmes and LMS-listed module counts', () => {
   }
 });
 
-test('every module has a source-backed code and title', () => {
+test('every module has a code, title, and discovery resources', () => {
   for (const course of catalog.courses) {
     for (const module of course.modules) {
       assert.ok(module.code && module.name);
-      assert.equal(module.source, 'repository-lms-directory');
+      assert.equal(module.resources.length, 2);
+      assert.ok(module.resources.every(resource => resource.sourceType === 'discovery'));
+      assert.ok(module.resources.every(resource => /^https:\/\//.test(resource.url)));
     }
   }
 });
 
-test('curated resources require a real URL and a valid priority', () => {
-  for (const course of catalog.courses) for (const module of course.modules) {
-    for (const resource of module.resources || []) {
-      assert.equal(resource.kind, 'curated');
-      assert.match(resource.url, /^https:\/\//);
-      assert.ok([1,2,3].includes(resource.priority));
-      assert.ok(resource.priorityReason);
-    }
+test('curated learning portals are attributable and have valid priorities', () => {
+  assert.ok(catalog.sources.length >= 5);
+  for (const resource of catalog.sources) {
+    assert.equal(resource.sourceType, 'curated');
+    assert.match(resource.url, /^https:\/\//);
+    assert.ok([1,2,3].includes(resource.priority));
+    assert.ok(resource.reason && resource.provider);
   }
 });
 
@@ -36,7 +37,8 @@ test('module search and resource filters are deterministic', () => {
   assert.equal(catalog.filterModules('HNDIT', 'web design').length, 1);
   assert.equal(catalog.filterModules('HNDIT', 'no-such-topic').length, 0);
   const all = catalog.getResources('HNDIT', 'HNDIT1022');
-  assert.ok(all.some(resource => resource.kind === 'discovery'));
+  assert.ok(all.some(resource => resource.sourceType === 'discovery'));
+  assert.ok(all.some(resource => resource.sourceType === 'curated'));
   assert.ok(all.every(resource => [1,2,3].includes(resource.priority)));
-  assert.ok(catalog.filterResources(all, {type:'video', priority:'1'}).every(resource => resource.type === 'video' && resource.priority === 1));
+  assert.ok(catalog.filterResources(all, {type:'Video lessons', priority:'1'}).every(resource => resource.type === 'Video lessons' && resource.priority === 1));
 });
