@@ -80,3 +80,39 @@ test('discovery and curated resources are clearly distinguished and linked from 
   assert.match(html, /typeFilter/);
   assert.match(home, /href="open\.lms\.html"/);
 });
+
+const guideSource = fs.readFileSync('open-lms-guides.js', 'utf8');
+const guideContext = { window: {} };
+vm.runInNewContext(guideSource, guideContext);
+const guideBuilder = guideContext.window.OPEN_LMS_GUIDES;
+
+test('Open LMS pilot is limited to HNDIT and HNDA', () => {
+  const html = fs.readFileSync('open.lms.html', 'utf8');
+  assert.match(html, /\['HNDIT','HNDA'\]\.includes\(course\.id\)/);
+  assert.match(html, /HNDIT \(Information Technology\) and HNDA \(Accountancy\) only/);
+});
+
+test('every HNDIT and HNDA module has a complete expanded learning guide', () => {
+  const pilotCourses = data.courses.filter(course => ['HNDIT', 'HNDA'].includes(course.id));
+  assert.equal(pilotCourses.reduce((sum, course) => sum + course.modules.length, 0), 71);
+  for (const course of pilotCourses) for (const module of course.modules) {
+    const guide = guideBuilder.build(course, module);
+    assert.ok(guide.topics.length >= 6, course.id + ' ' + module.code);
+    assert.equal(guide.videos.length, 3);
+    assert.ok(guide.websites.length >= 2);
+    assert.ok(guide.google.length >= 2);
+    assert.ok(guide.openLearning.length >= 2);
+    assert.ok(guide.shortVideos.length >= 1);
+    assert.ok(guide.practice.length >= 3);
+  }
+});
+
+test('web development guide includes W3Schools, MDN and three language video searches', () => {
+  const course = data.courses.find(item => item.id === 'HNDIT');
+  const module = course.modules.find(item => /web design|web programming/i.test(item.name));
+  const guide = guideBuilder.build(course, module);
+  const names = guide.websites.map(item => item[0]);
+  assert.ok(names.includes('W3Schools'));
+  assert.ok(names.includes('MDN Web Docs'));
+  assert.equal(guide.videos.map(item => item.language).join(','), 'English,Sinhala,Tamil');
+});
