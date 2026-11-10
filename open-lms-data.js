@@ -11,6 +11,7 @@ window.OPEN_LMS_DATA = {
           "code": "DA 1113",
           "name": "Financial Accounting",
           "search": "da 1113 financial accounting",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -36,6 +37,7 @@ window.OPEN_LMS_DATA = {
           "code": "DA 1123",
           "name": "Business Mathematics",
           "search": "da 1123 business mathematics",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -61,6 +63,7 @@ window.OPEN_LMS_DATA = {
           "code": "DA 1133",
           "name": "Business Economics",
           "search": "da 1133 business economics",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -86,6 +89,7 @@ window.OPEN_LMS_DATA = {
           "code": "DA 1142",
           "name": "Global Business Environment",
           "search": "da 1142 global business environment",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -111,6 +115,7 @@ window.OPEN_LMS_DATA = {
           "code": "DA 1153",
           "name": "Business Communication",
           "search": "da 1153 business communication",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -136,6 +141,7 @@ window.OPEN_LMS_DATA = {
           "code": "DA 1161",
           "name": "Socialization Activities",
           "search": "da 1161 socialization activities",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -161,6 +167,7 @@ window.OPEN_LMS_DATA = {
           "code": "DA 1213",
           "name": "Financial Accounting II",
           "search": "da 1213 financial accounting ii",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -186,6 +193,7 @@ window.OPEN_LMS_DATA = {
           "code": "DA 1223",
           "name": "Management Accounting",
           "search": "da 1223 management accounting",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -211,6 +219,7 @@ window.OPEN_LMS_DATA = {
           "code": "DA 1232",
           "name": "Theory of Managing Organizations",
           "search": "da 1232 theory of managing organizations",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -236,6 +245,7 @@ window.OPEN_LMS_DATA = {
           "code": "DA 1242",
           "name": "Business Law",
           "search": "da 1242 business law",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -261,6 +271,7 @@ window.OPEN_LMS_DATA = {
           "code": "DA 1252",
           "name": "Introduction to ICT and Networks",
           "search": "da 1252 introduction to ict and networks",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -286,6 +297,7 @@ window.OPEN_LMS_DATA = {
           "code": "DA 1263",
           "name": "Business Communication II",
           "search": "da 1263 business communication ii",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -311,6 +323,7 @@ window.OPEN_LMS_DATA = {
           "code": "DA 1271",
           "name": "Community Work Project",
           "search": "da 1271 community work project",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -336,6 +349,7 @@ window.OPEN_LMS_DATA = {
           "code": "DA 2313",
           "name": "Advanced Financial Accounting",
           "search": "da 2313 advanced financial accounting",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -361,6 +375,7 @@ window.OPEN_LMS_DATA = {
           "code": "DA 2323",
           "name": "Business Statistics",
           "search": "da 2323 business statistics",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -386,6 +401,7 @@ window.OPEN_LMS_DATA = {
           "code": "DA 2332",
           "name": "Human Resources Management and OB",
           "search": "da 2332 human resources management and ob",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -411,6 +427,7 @@ window.OPEN_LMS_DATA = {
           "code": "DA 2343",
           "name": "Auditing and Assurance",
           "search": "da 2343 auditing and assurance",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -436,6 +453,7 @@ window.OPEN_LMS_DATA = {
           "code": "DA 2353",
           "name": "Financial Modelling",
           "search": "da 2353 financial modelling",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -461,6 +479,7 @@ window.OPEN_LMS_DATA = {
           "code": "DA 2362",
           "name": "Managing Information System",
           "search": "da 2362 managing information system",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -486,6 +505,7 @@ window.OPEN_LMS_DATA = {
           "code": "DA 2413",
           "name": "Advanced Management Accounting",
           "search": "da 2413 advanced management accounting",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -511,6 +531,7 @@ window.OPEN_LMS_DATA = {
           "code": "DA 2422",
           "name": "Marketing Management",
           "search": "da 2422 marketing management",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -536,6 +557,7 @@ window.OPEN_LMS_DATA = {
           "code": "DA 2432",
           "name": "Operations Management",
           "search": "da 2432 operations management",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -561,6 +583,7 @@ window.OPEN_LMS_DATA = {
           "code": "DA 2443",
           "name": "Taxation",
           "search": "da 2443 taxation",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -586,6 +609,7 @@ window.OPEN_LMS_DATA = {
           "code": "DA 2452",
           "name": "Data Analytics",
           "search": "da 2452 data analytics",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -611,6 +635,7 @@ window.OPEN_LMS_DATA = {
           "code": "DA 2463",
           "name": "Computer Based Accounting",
           "search": "da 2463 computer based accounting",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -636,6 +661,7 @@ window.OPEN_LMS_DATA = {
           "code": "DA 3513",
           "name": "Financial Reporting Standards",
           "search": "da 3513 financial reporting standards",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -661,6 +687,7 @@ window.OPEN_LMS_DATA = {
           "code": "DA 3523",
           "name": "Financial Management",
           "search": "da 3523 financial management",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -686,6 +713,7 @@ window.OPEN_LMS_DATA = {
           "code": "DA 3533",
           "name": "Business Researching and Statistical Data Analysis",
           "search": "da 3533 business researching and statistical data analysis",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -711,6 +739,7 @@ window.OPEN_LMS_DATA = {
           "code": "DA 3543",
           "name": "Strategic Management Accounting",
           "search": "da 3543 strategic management accounting",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -736,6 +765,7 @@ window.OPEN_LMS_DATA = {
           "code": "DA 3613",
           "name": "Advanced Auditing and Assurance",
           "search": "da 3613 advanced auditing and assurance",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -761,6 +791,7 @@ window.OPEN_LMS_DATA = {
           "code": "DA 3622",
           "name": "Investment and Portfolio Management",
           "search": "da 3622 investment and portfolio management",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -786,6 +817,7 @@ window.OPEN_LMS_DATA = {
           "code": "DA 3633",
           "name": "Advanced Taxation",
           "search": "da 3633 advanced taxation",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -811,6 +843,7 @@ window.OPEN_LMS_DATA = {
           "code": "DA 3642",
           "name": "Corporate Law",
           "search": "da 3642 corporate law",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -836,6 +869,7 @@ window.OPEN_LMS_DATA = {
           "code": "DA 3656",
           "name": "Research Project",
           "search": "da 3656 research project",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -861,6 +895,7 @@ window.OPEN_LMS_DATA = {
           "code": "DA 4712",
           "name": "Cost Management",
           "search": "da 4712 cost management",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -886,6 +921,7 @@ window.OPEN_LMS_DATA = {
           "code": "DA 4722",
           "name": "Business Process Reengineering",
           "search": "da 4722 business process reengineering",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -911,6 +947,7 @@ window.OPEN_LMS_DATA = {
           "code": "DA 4732",
           "name": "Public Sector Accounting",
           "search": "da 4732 public sector accounting",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -936,6 +973,7 @@ window.OPEN_LMS_DATA = {
           "code": "DA 4743",
           "name": "Enterprise Resource Planning Systems",
           "search": "da 4743 enterprise resource planning systems",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -961,6 +999,7 @@ window.OPEN_LMS_DATA = {
           "code": "DA 4753",
           "name": "Project Management",
           "search": "da 4753 project management",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -986,6 +1025,7 @@ window.OPEN_LMS_DATA = {
           "code": "DA 4813",
           "name": "Corporate Reporting Practice",
           "search": "da 4813 corporate reporting practice",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -1019,6 +1059,7 @@ window.OPEN_LMS_DATA = {
           "code": "21BA1101",
           "name": "Introduction to Management",
           "search": "21ba1101 introduction to management",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -1044,6 +1085,7 @@ window.OPEN_LMS_DATA = {
           "code": "21BA1102",
           "name": "Micro Economics",
           "search": "21ba1102 micro economics",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -1069,6 +1111,7 @@ window.OPEN_LMS_DATA = {
           "code": "21BA1103",
           "name": "Financial Accounting",
           "search": "21ba1103 financial accounting",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -1094,6 +1137,7 @@ window.OPEN_LMS_DATA = {
           "code": "21BA1104",
           "name": "Business Mathematics and Statistics",
           "search": "21ba1104 business mathematics and statistics",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -1119,6 +1163,7 @@ window.OPEN_LMS_DATA = {
           "code": "21BA1105",
           "name": "Information and Communication Technology",
           "search": "21ba1105 information and communication technology",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -1144,6 +1189,7 @@ window.OPEN_LMS_DATA = {
           "code": "21BA1106",
           "name": "Business Communication I",
           "search": "21ba1106 business communication i",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -1169,6 +1215,7 @@ window.OPEN_LMS_DATA = {
           "code": "21BA1201",
           "name": "Macro Economics",
           "search": "21ba1201 macro economics",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -1194,6 +1241,7 @@ window.OPEN_LMS_DATA = {
           "code": "21BA1202",
           "name": "Human Resource Management",
           "search": "21ba1202 human resource management",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -1219,6 +1267,7 @@ window.OPEN_LMS_DATA = {
           "code": "21BA1203",
           "name": "Cost and Management Accounting",
           "search": "21ba1203 cost and management accounting",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -1244,6 +1293,7 @@ window.OPEN_LMS_DATA = {
           "code": "21BA1204",
           "name": "Marketing Management",
           "search": "21ba1204 marketing management",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -1269,6 +1319,7 @@ window.OPEN_LMS_DATA = {
           "code": "21BA1205",
           "name": "Computer Application for Business",
           "search": "21ba1205 computer application for business",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -1294,6 +1345,7 @@ window.OPEN_LMS_DATA = {
           "code": "21BA1206",
           "name": "Business Communication II",
           "search": "21ba1206 business communication ii",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -1319,6 +1371,7 @@ window.OPEN_LMS_DATA = {
           "code": "21BA1207",
           "name": "Human Value and Professionalism",
           "search": "21ba1207 human value and professionalism",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -1344,6 +1397,7 @@ window.OPEN_LMS_DATA = {
           "code": "21BA2101",
           "name": "Operations Management",
           "search": "21ba2101 operations management",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -1369,6 +1423,7 @@ window.OPEN_LMS_DATA = {
           "code": "21BA2102",
           "name": "Financial Management",
           "search": "21ba2102 financial management",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -1394,6 +1449,7 @@ window.OPEN_LMS_DATA = {
           "code": "21BA2103",
           "name": "Banking and Insurance",
           "search": "21ba2103 banking and insurance",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -1419,6 +1475,7 @@ window.OPEN_LMS_DATA = {
           "code": "21BA2104",
           "name": "Legal Business Environment",
           "search": "21ba2104 legal business environment",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -1444,6 +1501,7 @@ window.OPEN_LMS_DATA = {
           "code": "21BA2105",
           "name": "Computer Application for Data Analysis",
           "search": "21ba2105 computer application for data analysis",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -1469,6 +1527,7 @@ window.OPEN_LMS_DATA = {
           "code": "21BA2106",
           "name": "Entrepreneurship and Small Business",
           "search": "21ba2106 entrepreneurship and small business",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -1494,6 +1553,7 @@ window.OPEN_LMS_DATA = {
           "code": "21BA2107",
           "name": "Business Communication III",
           "search": "21ba2107 business communication iii",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -1519,6 +1579,7 @@ window.OPEN_LMS_DATA = {
           "code": "21BA2201",
           "name": "Organizational Behaviour",
           "search": "21ba2201 organizational behaviour",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -1544,6 +1605,7 @@ window.OPEN_LMS_DATA = {
           "code": "21BA2202",
           "name": "Tax and Auditing",
           "search": "21ba2202 tax and auditing",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -1569,6 +1631,7 @@ window.OPEN_LMS_DATA = {
           "code": "21BA2203",
           "name": "Management Information System",
           "search": "21ba2203 management information system",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -1594,6 +1657,7 @@ window.OPEN_LMS_DATA = {
           "code": "21BA2204",
           "name": "Managing Productivity and Quality",
           "search": "21ba2204 managing productivity and quality",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -1619,6 +1683,7 @@ window.OPEN_LMS_DATA = {
           "code": "21BA2205",
           "name": "Strategic Management",
           "search": "21ba2205 strategic management",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -1644,6 +1709,7 @@ window.OPEN_LMS_DATA = {
           "code": "21BA2206",
           "name": "Research Methodology",
           "search": "21ba2206 research methodology",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -1669,6 +1735,7 @@ window.OPEN_LMS_DATA = {
           "code": "21BA3101",
           "name": "Project Report",
           "search": "21ba3101 project report",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -1702,6 +1769,7 @@ window.OPEN_LMS_DATA = {
           "code": "21BF1101",
           "name": "Introduction to Management",
           "search": "21bf1101 introduction to management",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -1727,6 +1795,7 @@ window.OPEN_LMS_DATA = {
           "code": "21BF1102",
           "name": "Microeconomics",
           "search": "21bf1102 microeconomics",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -1752,6 +1821,7 @@ window.OPEN_LMS_DATA = {
           "code": "21BF1103",
           "name": "Financial Accounting",
           "search": "21bf1103 financial accounting",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -1777,6 +1847,7 @@ window.OPEN_LMS_DATA = {
           "code": "21BF1104",
           "name": "Business Mathematics",
           "search": "21bf1104 business mathematics",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -1802,6 +1873,7 @@ window.OPEN_LMS_DATA = {
           "code": "21BF1105",
           "name": "Information Communication Technology",
           "search": "21bf1105 information communication technology",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -1827,6 +1899,7 @@ window.OPEN_LMS_DATA = {
           "code": "21BF1106",
           "name": "Business Communication I",
           "search": "21bf1106 business communication i",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -1852,6 +1925,7 @@ window.OPEN_LMS_DATA = {
           "code": "21BF1201",
           "name": "Macroeconomics",
           "search": "21bf1201 macroeconomics",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -1877,6 +1951,7 @@ window.OPEN_LMS_DATA = {
           "code": "21BF1202",
           "name": "Cost and Management Accounting",
           "search": "21bf1202 cost and management accounting",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -1902,6 +1977,7 @@ window.OPEN_LMS_DATA = {
           "code": "21BF1203",
           "name": "Business Statistics",
           "search": "21bf1203 business statistics",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -1927,6 +2003,7 @@ window.OPEN_LMS_DATA = {
           "code": "21BF1204",
           "name": "Marketing for Financial Services",
           "search": "21bf1204 marketing for financial services",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -1952,6 +2029,7 @@ window.OPEN_LMS_DATA = {
           "code": "21BF1205",
           "name": "Principles of Finance",
           "search": "21bf1205 principles of finance",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -1977,6 +2055,7 @@ window.OPEN_LMS_DATA = {
           "code": "21BF1206",
           "name": "Business Communication II",
           "search": "21bf1206 business communication ii",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -2002,6 +2081,7 @@ window.OPEN_LMS_DATA = {
           "code": "21BF1207",
           "name": "Human Values and Professionalism",
           "search": "21bf1207 human values and professionalism",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -2027,6 +2107,7 @@ window.OPEN_LMS_DATA = {
           "code": "21BF2101",
           "name": "Organizational Behavior and Human Resource Management",
           "search": "21bf2101 organizational behavior and human resource management",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -2052,6 +2133,7 @@ window.OPEN_LMS_DATA = {
           "code": "21BF2102",
           "name": "Audit and Assurance",
           "search": "21bf2102 audit and assurance",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -2077,6 +2159,7 @@ window.OPEN_LMS_DATA = {
           "code": "21BF2103",
           "name": "Taxation",
           "search": "21bf2103 taxation",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -2102,6 +2185,7 @@ window.OPEN_LMS_DATA = {
           "code": "21BF2104",
           "name": "Legal Business Environment",
           "search": "21bf2104 legal business environment",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -2127,6 +2211,7 @@ window.OPEN_LMS_DATA = {
           "code": "21BF2105",
           "name": "Computer Application for Finance",
           "search": "21bf2105 computer application for finance",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -2152,6 +2237,7 @@ window.OPEN_LMS_DATA = {
           "code": "21BF2106",
           "name": "Financial Services Management",
           "search": "21bf2106 financial services management",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -2177,6 +2263,7 @@ window.OPEN_LMS_DATA = {
           "code": "21BF2107",
           "name": "Business Communication III",
           "search": "21bf2107 business communication iii",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -2202,6 +2289,7 @@ window.OPEN_LMS_DATA = {
           "code": "21BF2201",
           "name": "Portfolio Management and Investor Behavior",
           "search": "21bf2201 portfolio management and investor behavior",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -2227,6 +2315,7 @@ window.OPEN_LMS_DATA = {
           "code": "21BF2202",
           "name": "Operational Research",
           "search": "21bf2202 operational research",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -2252,6 +2341,7 @@ window.OPEN_LMS_DATA = {
           "code": "21BF2203",
           "name": "Corporate Finance",
           "search": "21bf2203 corporate finance",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -2277,6 +2367,7 @@ window.OPEN_LMS_DATA = {
           "code": "21BF2204",
           "name": "Insurance and Risk Management",
           "search": "21bf2204 insurance and risk management",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -2302,6 +2393,7 @@ window.OPEN_LMS_DATA = {
           "code": "21BF2205",
           "name": "Financial Modelling and Forecasting",
           "search": "21bf2205 financial modelling and forecasting",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -2327,6 +2419,7 @@ window.OPEN_LMS_DATA = {
           "code": "21BF2206",
           "name": "Research Methodology",
           "search": "21bf2206 research methodology",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -2352,6 +2445,7 @@ window.OPEN_LMS_DATA = {
           "code": "21BF3101",
           "name": "Project Report",
           "search": "21bf3101 project report",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -2385,6 +2479,7 @@ window.OPEN_LMS_DATA = {
           "code": "24BSE1101",
           "name": "Engineering Mathematics I",
           "search": "24bse1101 engineering mathematics i",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -2410,6 +2505,7 @@ window.OPEN_LMS_DATA = {
           "code": "24BSE1102",
           "name": "Introduction to Fluid Mechanics",
           "search": "24bse1102 introduction to fluid mechanics",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -2435,6 +2531,7 @@ window.OPEN_LMS_DATA = {
           "code": "24BSE1103",
           "name": "English and Communication Skills I",
           "search": "24bse1103 english and communication skills i",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -2460,6 +2557,7 @@ window.OPEN_LMS_DATA = {
           "code": "24BSE1104",
           "name": "Programming Concepts",
           "search": "24bse1104 programming concepts",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -2485,6 +2583,7 @@ window.OPEN_LMS_DATA = {
           "code": "24BSE1105",
           "name": "Electrical and Electronics Engineering Fundamentals I",
           "search": "24bse1105 electrical and electronics engineering fundamentals i",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -2510,6 +2609,7 @@ window.OPEN_LMS_DATA = {
           "code": "24BSE1106",
           "name": "Workshop Engineering",
           "search": "24bse1106 workshop engineering",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -2535,6 +2635,7 @@ window.OPEN_LMS_DATA = {
           "code": "24BSE1107",
           "name": "Engineering Drawing",
           "search": "24bse1107 engineering drawing",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -2560,6 +2661,7 @@ window.OPEN_LMS_DATA = {
           "code": "24BSE1208",
           "name": "Engineering Mathematics II",
           "search": "24bse1208 engineering mathematics ii",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -2585,6 +2687,7 @@ window.OPEN_LMS_DATA = {
           "code": "24BSE1209",
           "name": "Introduction to Thermodynamics",
           "search": "24bse1209 introduction to thermodynamics",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -2610,6 +2713,7 @@ window.OPEN_LMS_DATA = {
           "code": "24BSE1210",
           "name": "English and Communication Skills II",
           "search": "24bse1210 english and communication skills ii",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -2635,6 +2739,7 @@ window.OPEN_LMS_DATA = {
           "code": "24BSE1211",
           "name": "Computer Technology and Networking",
           "search": "24bse1211 computer technology and networking",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -2660,6 +2765,7 @@ window.OPEN_LMS_DATA = {
           "code": "24BSE1212",
           "name": "Electrical and Electronics Engineering Fundamentals II",
           "search": "24bse1212 electrical and electronics engineering fundamentals ii",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -2685,6 +2791,7 @@ window.OPEN_LMS_DATA = {
           "code": "24BSE1213",
           "name": "Properties of Engineering Materials",
           "search": "24bse1213 properties of engineering materials",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -2710,6 +2817,7 @@ window.OPEN_LMS_DATA = {
           "code": "24BSE1214",
           "name": "Engineering Mechanics",
           "search": "24bse1214 engineering mechanics",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -2735,6 +2843,7 @@ window.OPEN_LMS_DATA = {
           "code": "24BSE1215",
           "name": "Human Values and Professional Ethics",
           "search": "24bse1215 human values and professional ethics",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -2760,6 +2869,7 @@ window.OPEN_LMS_DATA = {
           "code": "24BSE2116",
           "name": "Advanced Engineering Mathematics",
           "search": "24bse2116 advanced engineering mathematics",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -2785,6 +2895,7 @@ window.OPEN_LMS_DATA = {
           "code": "24BSE2117",
           "name": "Building Engineering",
           "search": "24bse2117 building engineering",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -2810,6 +2921,7 @@ window.OPEN_LMS_DATA = {
           "code": "24BSE2118",
           "name": "Engineering Fluid Mechanics",
           "search": "24bse2118 engineering fluid mechanics",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -2835,6 +2947,7 @@ window.OPEN_LMS_DATA = {
           "code": "24BSE2119",
           "name": "Thermodynamics and Fluid Mechanics",
           "search": "24bse2119 thermodynamics and fluid mechanics",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -2860,6 +2973,7 @@ window.OPEN_LMS_DATA = {
           "code": "24BSE2120",
           "name": "Engineering Surveying",
           "search": "24bse2120 engineering surveying",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -2885,6 +2999,7 @@ window.OPEN_LMS_DATA = {
           "code": "24BSE2121",
           "name": "Electrical Installations",
           "search": "24bse2121 electrical installations",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -2910,6 +3025,7 @@ window.OPEN_LMS_DATA = {
           "code": "24BSE2122",
           "name": "Introduction to Power Engineering",
           "search": "24bse2122 introduction to power engineering",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -2935,6 +3051,7 @@ window.OPEN_LMS_DATA = {
           "code": "24BSE2123",
           "name": "Electrical Machines and Drives",
           "search": "24bse2123 electrical machines and drives",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -2960,6 +3077,7 @@ window.OPEN_LMS_DATA = {
           "code": "24BSE2224",
           "name": "Fire Detection and Protection Systems",
           "search": "24bse2224 fire detection and protection systems",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -2985,6 +3103,7 @@ window.OPEN_LMS_DATA = {
           "code": "24BSE2225",
           "name": "Heat Transfer Systems in Buildings",
           "search": "24bse2225 heat transfer systems in buildings",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -3010,6 +3129,7 @@ window.OPEN_LMS_DATA = {
           "code": "24BSE2226",
           "name": "Refrigeration Systems in Buildings",
           "search": "24bse2226 refrigeration systems in buildings",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -3035,6 +3155,7 @@ window.OPEN_LMS_DATA = {
           "code": "24BSE2227",
           "name": "Fluid Transfer Devices",
           "search": "24bse2227 fluid transfer devices",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -3060,6 +3181,7 @@ window.OPEN_LMS_DATA = {
           "code": "24BSE2228",
           "name": "ELV Systems in Buildings",
           "search": "24bse2228 elv systems in buildings",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -3085,6 +3207,7 @@ window.OPEN_LMS_DATA = {
           "code": "24BSE2229",
           "name": "Building Lighting and Acoustics Systems",
           "search": "24bse2229 building lighting and acoustics systems",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -3110,6 +3233,7 @@ window.OPEN_LMS_DATA = {
           "code": "24BSE2230",
           "name": "Principles of Air Conditioning",
           "search": "24bse2230 principles of air conditioning",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -3135,6 +3259,7 @@ window.OPEN_LMS_DATA = {
           "code": "24BSE2231",
           "name": "CAD Applications I",
           "search": "24bse2231 cad applications i",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -3160,6 +3285,7 @@ window.OPEN_LMS_DATA = {
           "code": "24BSE2232",
           "name": "Codes and Standards in Building Services",
           "search": "24bse2232 codes and standards in building services",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -3185,6 +3311,7 @@ window.OPEN_LMS_DATA = {
           "code": "24BSE3133",
           "name": "Industrial Training",
           "search": "24bse3133 industrial training",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -3210,6 +3337,7 @@ window.OPEN_LMS_DATA = {
           "code": "24BSE3234",
           "name": "Plumbing Technology in Building Services Engineering",
           "search": "24bse3234 plumbing technology in building services engineering",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -3235,6 +3363,7 @@ window.OPEN_LMS_DATA = {
           "code": "24BSE3235",
           "name": "Accounting and Finance in Building Constructions",
           "search": "24bse3235 accounting and finance in building constructions",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -3260,6 +3389,7 @@ window.OPEN_LMS_DATA = {
           "code": "24BSE3236",
           "name": "HVAC System Design",
           "search": "24bse3236 hvac system design",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -3285,6 +3415,7 @@ window.OPEN_LMS_DATA = {
           "code": "24BSE3237",
           "name": "Ancillary Services in Buildings",
           "search": "24bse3237 ancillary services in buildings",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -3310,6 +3441,7 @@ window.OPEN_LMS_DATA = {
           "code": "24BSE3238",
           "name": "Sustainable Built Environment",
           "search": "24bse3238 sustainable built environment",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -3335,6 +3467,7 @@ window.OPEN_LMS_DATA = {
           "code": "24BSE3239",
           "name": "English and Communication Skills III",
           "search": "24bse3239 english and communication skills iii",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -3360,6 +3493,7 @@ window.OPEN_LMS_DATA = {
           "code": "24BSE3240",
           "name": "CAD Applications II",
           "search": "24bse3240 cad applications ii",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -3393,6 +3527,7 @@ window.OPEN_LMS_DATA = {
           "code": "22CE2116",
           "name": "Advanced Engineering Mathematics",
           "search": "22ce2116 advanced engineering mathematics",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -3418,6 +3553,7 @@ window.OPEN_LMS_DATA = {
           "code": "22CE2117",
           "name": "Building Engineering",
           "search": "22ce2117 building engineering",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -3443,6 +3579,7 @@ window.OPEN_LMS_DATA = {
           "code": "22CE2118",
           "name": "Engineering Hydraulics",
           "search": "22ce2118 engineering hydraulics",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -3468,6 +3605,7 @@ window.OPEN_LMS_DATA = {
           "code": "22CE2119",
           "name": "Construction Technology and Materials",
           "search": "22ce2119 construction technology and materials",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -3493,6 +3631,7 @@ window.OPEN_LMS_DATA = {
           "code": "22CE2120",
           "name": "Engineering Surveying I",
           "search": "22ce2120 engineering surveying i",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -3518,6 +3657,7 @@ window.OPEN_LMS_DATA = {
           "code": "22CE2121",
           "name": "Strength of Materials",
           "search": "22ce2121 strength of materials",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -3543,6 +3683,7 @@ window.OPEN_LMS_DATA = {
           "code": "22CE2122",
           "name": "Structural Analysis I",
           "search": "22ce2122 structural analysis i",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -3568,6 +3709,7 @@ window.OPEN_LMS_DATA = {
           "code": "22CE2223",
           "name": "Structural Analysis II",
           "search": "22ce2223 structural analysis ii",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -3593,6 +3735,7 @@ window.OPEN_LMS_DATA = {
           "code": "22CE2225",
           "name": "Engineering Surveying II",
           "search": "22ce2225 engineering surveying ii",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -3618,6 +3761,7 @@ window.OPEN_LMS_DATA = {
           "code": "22CE2227",
           "name": "Engineering Geology and Rock Mechanics",
           "search": "22ce2227 engineering geology and rock mechanics",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -3643,6 +3787,7 @@ window.OPEN_LMS_DATA = {
           "code": "22CE3232",
           "name": "Engineering Management and Marketing",
           "search": "22ce3232 engineering management and marketing",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -3668,6 +3813,7 @@ window.OPEN_LMS_DATA = {
           "code": "22CE3233",
           "name": "Steel and Prestressed Concrete Design",
           "search": "22ce3233 steel and prestressed concrete design",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -3693,6 +3839,7 @@ window.OPEN_LMS_DATA = {
           "code": "22CE3234",
           "name": "Building Services Engineering",
           "search": "22ce3234 building services engineering",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -3718,6 +3865,7 @@ window.OPEN_LMS_DATA = {
           "code": "22CE3235",
           "name": "Environmental Engineering",
           "search": "22ce3235 environmental engineering",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -3743,6 +3891,7 @@ window.OPEN_LMS_DATA = {
           "code": "22CE3236",
           "name": "Quantity Surveying",
           "search": "22ce3236 quantity surveying",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -3768,6 +3917,7 @@ window.OPEN_LMS_DATA = {
           "code": "22CE3237",
           "name": "Group Project (Civil)",
           "search": "22ce3237 group project (civil)",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -3793,6 +3943,7 @@ window.OPEN_LMS_DATA = {
           "code": "22CE3238",
           "name": "English and Communication Skills III",
           "search": "22ce3238 english and communication skills iii",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -3818,6 +3969,7 @@ window.OPEN_LMS_DATA = {
           "code": "22CE3239",
           "name": "Bridge Engineering (Elective)",
           "search": "22ce3239 bridge engineering (elective)",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -3843,6 +3995,7 @@ window.OPEN_LMS_DATA = {
           "code": "22CE3240",
           "name": "Highway and Traffic Engineering (Elective)",
           "search": "22ce3240 highway and traffic engineering (elective)",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -3868,6 +4021,7 @@ window.OPEN_LMS_DATA = {
           "code": "22CE4141",
           "name": "Individual Project (Civil)",
           "search": "22ce4141 individual project (civil)",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -3893,6 +4047,7 @@ window.OPEN_LMS_DATA = {
           "code": "22CE4142",
           "name": "Irrigation Engineering",
           "search": "22ce4142 irrigation engineering",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -3918,6 +4073,7 @@ window.OPEN_LMS_DATA = {
           "code": "22CE4143",
           "name": "Geotechnics and Foundation Engineering",
           "search": "22ce4143 geotechnics and foundation engineering",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -3943,6 +4099,7 @@ window.OPEN_LMS_DATA = {
           "code": "22CE4144",
           "name": "Construction Management",
           "search": "22ce4144 construction management",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -3968,6 +4125,7 @@ window.OPEN_LMS_DATA = {
           "code": "22CE4145",
           "name": "Remote Sensing and GIS",
           "search": "22ce4145 remote sensing and gis",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -3993,6 +4151,7 @@ window.OPEN_LMS_DATA = {
           "code": "22CE4146",
           "name": "Computational Mechanics",
           "search": "22ce4146 computational mechanics",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -4018,6 +4177,7 @@ window.OPEN_LMS_DATA = {
           "code": "22CE4147",
           "name": "Advanced Structural Mechanics",
           "search": "22ce4147 advanced structural mechanics",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -4043,6 +4203,7 @@ window.OPEN_LMS_DATA = {
           "code": "22CE4148",
           "name": "Coastal Engineering",
           "search": "22ce4148 coastal engineering",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -4076,6 +4237,7 @@ window.OPEN_LMS_DATA = {
           "code": "22EE2116",
           "name": "Advanced Engineering Mathematics",
           "search": "22ee2116 advanced engineering mathematics",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -4101,6 +4263,7 @@ window.OPEN_LMS_DATA = {
           "code": "22EE2117",
           "name": "Electrical Circuits and Measurements I",
           "search": "22ee2117 electrical circuits and measurements i",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -4126,6 +4289,7 @@ window.OPEN_LMS_DATA = {
           "code": "22EE2118",
           "name": "Electronics I",
           "search": "22ee2118 electronics i",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -4151,6 +4315,7 @@ window.OPEN_LMS_DATA = {
           "code": "22EE2119",
           "name": "Introduction to Telecommunication",
           "search": "22ee2119 introduction to telecommunication",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -4176,6 +4341,7 @@ window.OPEN_LMS_DATA = {
           "code": "22EE2120",
           "name": "Power Stations and Substations",
           "search": "22ee2120 power stations and substations",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -4201,6 +4367,7 @@ window.OPEN_LMS_DATA = {
           "code": "22EE2121",
           "name": "Electrical Installation",
           "search": "22ee2121 electrical installation",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -4226,6 +4393,7 @@ window.OPEN_LMS_DATA = {
           "code": "22EE2122",
           "name": "Introduction to Power Engineering",
           "search": "22ee2122 introduction to power engineering",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -4251,6 +4419,7 @@ window.OPEN_LMS_DATA = {
           "code": "22EE2123",
           "name": "Telecommunication Principles",
           "search": "22ee2123 telecommunication principles",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -4276,6 +4445,7 @@ window.OPEN_LMS_DATA = {
           "code": "22EE2124",
           "name": "Advanced Programming",
           "search": "22ee2124 advanced programming",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -4301,6 +4471,7 @@ window.OPEN_LMS_DATA = {
           "code": "22EE2225",
           "name": "Microprocessors I",
           "search": "22ee2225 microprocessors i",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -4326,6 +4497,7 @@ window.OPEN_LMS_DATA = {
           "code": "22EE2226",
           "name": "Electrical Circuits and Measurements II",
           "search": "22ee2226 electrical circuits and measurements ii",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -4351,6 +4523,7 @@ window.OPEN_LMS_DATA = {
           "code": "22EE2227",
           "name": "Electronics II",
           "search": "22ee2227 electronics ii",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -4376,6 +4549,7 @@ window.OPEN_LMS_DATA = {
           "code": "22EE2228",
           "name": "Power Transmission and Distribution",
           "search": "22ee2228 power transmission and distribution",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -4401,6 +4575,7 @@ window.OPEN_LMS_DATA = {
           "code": "22EE2229",
           "name": "Electrical Machines I",
           "search": "22ee2229 electrical machines i",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -4426,6 +4601,7 @@ window.OPEN_LMS_DATA = {
           "code": "22EE2230",
           "name": "Power Electronics",
           "search": "22ee2230 power electronics",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -4451,6 +4627,7 @@ window.OPEN_LMS_DATA = {
           "code": "22EE2231",
           "name": "Communication Systems",
           "search": "22ee2231 communication systems",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -4476,6 +4653,7 @@ window.OPEN_LMS_DATA = {
           "code": "22EE2232",
           "name": "Analog Electronic Systems",
           "search": "22ee2232 analog electronic systems",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -4501,6 +4679,7 @@ window.OPEN_LMS_DATA = {
           "code": "22EE2233",
           "name": "Electronic Circuit Design",
           "search": "22ee2233 electronic circuit design",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -4526,6 +4705,7 @@ window.OPEN_LMS_DATA = {
           "code": "22EE3134",
           "name": "Industrial Training",
           "search": "22ee3134 industrial training",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -4551,6 +4731,7 @@ window.OPEN_LMS_DATA = {
           "code": "22EE3235",
           "name": "Engineering Management and Marketing",
           "search": "22ee3235 engineering management and marketing",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -4576,6 +4757,7 @@ window.OPEN_LMS_DATA = {
           "code": "22EE3236",
           "name": "Group Project (Electrical and Electronics)",
           "search": "22ee3236 group project (electrical and electronics)",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -4601,6 +4783,7 @@ window.OPEN_LMS_DATA = {
           "code": "22EE3237",
           "name": "Microprocessors II",
           "search": "22ee3237 microprocessors ii",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -4626,6 +4809,7 @@ window.OPEN_LMS_DATA = {
           "code": "22EE3238",
           "name": "English and Communication Skills III",
           "search": "22ee3238 english and communication skills iii",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -4651,6 +4835,7 @@ window.OPEN_LMS_DATA = {
           "code": "22EE3239",
           "name": "Control Systems",
           "search": "22ee3239 control systems",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -4676,6 +4861,7 @@ window.OPEN_LMS_DATA = {
           "code": "22EE3240",
           "name": "Electrical Machines II",
           "search": "22ee3240 electrical machines ii",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -4701,6 +4887,7 @@ window.OPEN_LMS_DATA = {
           "code": "22EE3241",
           "name": "Modern Power Systems",
           "search": "22ee3241 modern power systems",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -4726,6 +4913,7 @@ window.OPEN_LMS_DATA = {
           "code": "22EE3242",
           "name": "Data Communication",
           "search": "22ee3242 data communication",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -4751,6 +4939,7 @@ window.OPEN_LMS_DATA = {
           "code": "22EE3243",
           "name": "Digital Electric System and Design",
           "search": "22ee3243 digital electric system and design",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -4776,6 +4965,7 @@ window.OPEN_LMS_DATA = {
           "code": "22EE4144",
           "name": "Individual Project",
           "search": "22ee4144 individual project",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -4801,6 +4991,7 @@ window.OPEN_LMS_DATA = {
           "code": "22EE4145",
           "name": "Robotics and Automation",
           "search": "22ee4145 robotics and automation",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -4826,6 +5017,7 @@ window.OPEN_LMS_DATA = {
           "code": "22EE4146",
           "name": "Energy Technology",
           "search": "22ee4146 energy technology",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -4851,6 +5043,7 @@ window.OPEN_LMS_DATA = {
           "code": "22EE4147",
           "name": "Electrical Power Utilization",
           "search": "22ee4147 electrical power utilization",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -4876,6 +5069,7 @@ window.OPEN_LMS_DATA = {
           "code": "22EE4148",
           "name": "Computer Networking",
           "search": "22ee4148 computer networking",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -4901,6 +5095,7 @@ window.OPEN_LMS_DATA = {
           "code": "22EE4149",
           "name": "Signals and Systems",
           "search": "22ee4149 signals and systems",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -4934,6 +5129,7 @@ window.OPEN_LMS_DATA = {
           "code": "22ME2116",
           "name": "Advanced Engineering Mathematics",
           "search": "22me2116 advanced engineering mathematics",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -4959,6 +5155,7 @@ window.OPEN_LMS_DATA = {
           "code": "22ME2117",
           "name": "Dynamics of Mechanical Systems",
           "search": "22me2117 dynamics of mechanical systems",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -4984,6 +5181,7 @@ window.OPEN_LMS_DATA = {
           "code": "22ME2118",
           "name": "Engineering Fluid Mechanics I",
           "search": "22me2118 engineering fluid mechanics i",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -5009,6 +5207,7 @@ window.OPEN_LMS_DATA = {
           "code": "22ME2119",
           "name": "Engineering Thermodynamics I",
           "search": "22me2119 engineering thermodynamics i",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -5034,6 +5233,7 @@ window.OPEN_LMS_DATA = {
           "code": "22ME2120",
           "name": "Strength of Materials I",
           "search": "22me2120 strength of materials i",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -5059,6 +5259,7 @@ window.OPEN_LMS_DATA = {
           "code": "22ME2121",
           "name": "Advanced Engineering Graphics I",
           "search": "22me2121 advanced engineering graphics i",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -5084,6 +5285,7 @@ window.OPEN_LMS_DATA = {
           "code": "22ME2122",
           "name": "Manufacturing Technology I",
           "search": "22me2122 manufacturing technology i",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -5109,6 +5311,7 @@ window.OPEN_LMS_DATA = {
           "code": "22ME2123",
           "name": "Electrical Machines and Drives I",
           "search": "22me2123 electrical machines and drives i",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -5134,6 +5337,7 @@ window.OPEN_LMS_DATA = {
           "code": "22ME2124",
           "name": "Automobile Technology",
           "search": "22me2124 automobile technology",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -5159,6 +5363,7 @@ window.OPEN_LMS_DATA = {
           "code": "22ME2225",
           "name": "Microprocessors I",
           "search": "22me2225 microprocessors i",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -5184,6 +5389,7 @@ window.OPEN_LMS_DATA = {
           "code": "22ME2226",
           "name": "Engineering Fluid Mechanics II",
           "search": "22me2226 engineering fluid mechanics ii",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -5209,6 +5415,7 @@ window.OPEN_LMS_DATA = {
           "code": "22ME2227",
           "name": "Engineering Thermodynamics II",
           "search": "22me2227 engineering thermodynamics ii",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -5234,6 +5441,7 @@ window.OPEN_LMS_DATA = {
           "code": "22ME2228",
           "name": "Strength of Materials II",
           "search": "22me2228 strength of materials ii",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -5259,6 +5467,7 @@ window.OPEN_LMS_DATA = {
           "code": "22ME2229",
           "name": "Advanced Engineering Graphics II",
           "search": "22me2229 advanced engineering graphics ii",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -5284,6 +5493,7 @@ window.OPEN_LMS_DATA = {
           "code": "22ME2230",
           "name": "Manufacturing Technology II",
           "search": "22me2230 manufacturing technology ii",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -5309,6 +5519,7 @@ window.OPEN_LMS_DATA = {
           "code": "22ME2231",
           "name": "Electrical Machines and Drives II",
           "search": "22me2231 electrical machines and drives ii",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -5334,6 +5545,7 @@ window.OPEN_LMS_DATA = {
           "code": "22ME2232",
           "name": "Production Technology I",
           "search": "22me2232 production technology i",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -5359,6 +5571,7 @@ window.OPEN_LMS_DATA = {
           "code": "22ME2233",
           "name": "Refrigeration and Air Conditioning I",
           "search": "22me2233 refrigeration and air conditioning i",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -5384,6 +5597,7 @@ window.OPEN_LMS_DATA = {
           "code": "22ME2234",
           "name": "Automobile Engineering I",
           "search": "22me2234 automobile engineering i",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -5409,6 +5623,7 @@ window.OPEN_LMS_DATA = {
           "code": "22ME2235",
           "name": "Marine Engineering I",
           "search": "22me2235 marine engineering i",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -5434,6 +5649,7 @@ window.OPEN_LMS_DATA = {
           "code": "22ME3136",
           "name": "Industrial Training",
           "search": "22me3136 industrial training",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -5459,6 +5675,7 @@ window.OPEN_LMS_DATA = {
           "code": "22ME3237",
           "name": "Engineering Management and Marketing",
           "search": "22me3237 engineering management and marketing",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -5484,6 +5701,7 @@ window.OPEN_LMS_DATA = {
           "code": "22ME3238",
           "name": "English and Communication Skills III",
           "search": "22me3238 english and communication skills iii",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -5509,6 +5727,7 @@ window.OPEN_LMS_DATA = {
           "code": "22ME3239",
           "name": "Control Systems",
           "search": "22me3239 control systems",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -5534,6 +5753,7 @@ window.OPEN_LMS_DATA = {
           "code": "22ME3240",
           "name": "Microprocessors II",
           "search": "22me3240 microprocessors ii",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -5559,6 +5779,7 @@ window.OPEN_LMS_DATA = {
           "code": "22ME3241",
           "name": "Machine Design",
           "search": "22me3241 machine design",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -5584,6 +5805,7 @@ window.OPEN_LMS_DATA = {
           "code": "22ME3242",
           "name": "Mechanics of Solids",
           "search": "22me3242 mechanics of solids",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -5609,6 +5831,7 @@ window.OPEN_LMS_DATA = {
           "code": "22ME3243",
           "name": "Group Project (Mechanical)",
           "search": "22me3243 group project (mechanical)",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -5634,6 +5857,7 @@ window.OPEN_LMS_DATA = {
           "code": "22ME4144",
           "name": "Hydraulics and Pneumatics",
           "search": "22me4144 hydraulics and pneumatics",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -5659,6 +5883,7 @@ window.OPEN_LMS_DATA = {
           "code": "22ME4145",
           "name": "Energy and Environment",
           "search": "22me4145 energy and environment",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -5684,6 +5909,7 @@ window.OPEN_LMS_DATA = {
           "code": "22ME4146",
           "name": "Individual Project (Mechanical)",
           "search": "22me4146 individual project (mechanical)",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -5717,6 +5943,7 @@ window.OPEN_LMS_DATA = {
           "code": "ENGL 1101",
           "name": "English Grammar and Vocabulary in Context - Level 1",
           "search": "engl 1101 english grammar and vocabulary in context - level 1",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -5742,6 +5969,7 @@ window.OPEN_LMS_DATA = {
           "code": "ENGL 1102",
           "name": "Listening Skills in English - Level 1",
           "search": "engl 1102 listening skills in english - level 1",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -5767,6 +5995,7 @@ window.OPEN_LMS_DATA = {
           "code": "ENGL 1103",
           "name": "Speaking Skills in English - Level 1",
           "search": "engl 1103 speaking skills in english - level 1",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -5792,6 +6021,7 @@ window.OPEN_LMS_DATA = {
           "code": "ENGL 1104",
           "name": "Reading Skills in English - Level 1",
           "search": "engl 1104 reading skills in english - level 1",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -5817,6 +6047,7 @@ window.OPEN_LMS_DATA = {
           "code": "ENGL 1105",
           "name": "Writing Skills in English - Level 1",
           "search": "engl 1105 writing skills in english - level 1",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -5842,6 +6073,7 @@ window.OPEN_LMS_DATA = {
           "code": "ENGL 1106",
           "name": "Introduction to Literature in English",
           "search": "engl 1106 introduction to literature in english",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -5867,6 +6099,7 @@ window.OPEN_LMS_DATA = {
           "code": "ENGL 1107",
           "name": "Technology Assisted Language Learning - Level I",
           "search": "engl 1107 technology assisted language learning - level i",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -5892,6 +6125,7 @@ window.OPEN_LMS_DATA = {
           "code": "ENGL 1108",
           "name": "Language and Society",
           "search": "engl 1108 language and society",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -5917,6 +6151,7 @@ window.OPEN_LMS_DATA = {
           "code": "ENGL 1201",
           "name": "English Grammar and Vocabulary in Context - Level 2",
           "search": "engl 1201 english grammar and vocabulary in context - level 2",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -5942,6 +6177,7 @@ window.OPEN_LMS_DATA = {
           "code": "ENGL 1202",
           "name": "Listening Skills in English - Level 2",
           "search": "engl 1202 listening skills in english - level 2",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -5967,6 +6203,7 @@ window.OPEN_LMS_DATA = {
           "code": "ENGL 1203",
           "name": "Speaking Skills in English - Level 2",
           "search": "engl 1203 speaking skills in english - level 2",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -5992,6 +6229,7 @@ window.OPEN_LMS_DATA = {
           "code": "ENGL 1204",
           "name": "Reading Skills in English - Level 2",
           "search": "engl 1204 reading skills in english - level 2",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -6017,6 +6255,7 @@ window.OPEN_LMS_DATA = {
           "code": "ENGL 1205",
           "name": "Writing Skills in English - Level 2",
           "search": "engl 1205 writing skills in english - level 2",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -6042,6 +6281,7 @@ window.OPEN_LMS_DATA = {
           "code": "ENGL 1206",
           "name": "English Literature",
           "search": "engl 1206 english literature",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -6067,6 +6307,7 @@ window.OPEN_LMS_DATA = {
           "code": "ENGL 1207",
           "name": "Technology Assisted Language Learning - Level 2",
           "search": "engl 1207 technology assisted language learning - level 2",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -6092,6 +6333,7 @@ window.OPEN_LMS_DATA = {
           "code": "ENGL 1208",
           "name": "Language and Mind",
           "search": "engl 1208 language and mind",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -6117,6 +6359,7 @@ window.OPEN_LMS_DATA = {
           "code": "ENGL 1209",
           "name": "Human Value and Professionalism",
           "search": "engl 1209 human value and professionalism",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -6142,6 +6385,7 @@ window.OPEN_LMS_DATA = {
           "code": "ENGL 2101",
           "name": "Structure of English Language",
           "search": "engl 2101 structure of english language",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -6167,6 +6411,7 @@ window.OPEN_LMS_DATA = {
           "code": "ENGL 2102",
           "name": "Listening Skills in English - Level 3",
           "search": "engl 2102 listening skills in english - level 3",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -6192,6 +6437,7 @@ window.OPEN_LMS_DATA = {
           "code": "ENGL 2103",
           "name": "Speaking Skills in English - Level 3",
           "search": "engl 2103 speaking skills in english - level 3",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -6217,6 +6463,7 @@ window.OPEN_LMS_DATA = {
           "code": "ENGL 2104",
           "name": "Reading Skills in English - Level 3",
           "search": "engl 2104 reading skills in english - level 3",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -6242,6 +6489,7 @@ window.OPEN_LMS_DATA = {
           "code": "ENGL 2105",
           "name": "Writing Skills in English - Level 3",
           "search": "engl 2105 writing skills in english - level 3",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -6267,6 +6515,7 @@ window.OPEN_LMS_DATA = {
           "code": "ENGL 2106",
           "name": "Postcolonial Literature in English",
           "search": "engl 2106 postcolonial literature in english",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -6292,6 +6541,7 @@ window.OPEN_LMS_DATA = {
           "code": "ENGL 2201",
           "name": "Presentation Skills",
           "search": "engl 2201 presentation skills",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -6317,6 +6567,7 @@ window.OPEN_LMS_DATA = {
           "code": "ENGL 2202",
           "name": "Reading Skills for Academic and Professional Contexts",
           "search": "engl 2202 reading skills for academic and professional contexts",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -6342,6 +6593,7 @@ window.OPEN_LMS_DATA = {
           "code": "ENGL 2203",
           "name": "Writing Skills for Academic and Professional Contexts",
           "search": "engl 2203 writing skills for academic and professional contexts",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -6367,6 +6619,7 @@ window.OPEN_LMS_DATA = {
           "code": "ENGL 2204",
           "name": "Sri Lankan Literature in English",
           "search": "engl 2204 sri lankan literature in english",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -6392,6 +6645,7 @@ window.OPEN_LMS_DATA = {
           "code": "ENGL 2205",
           "name": "Key Concepts in Educational Philosophy",
           "search": "engl 2205 key concepts in educational philosophy",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -6417,6 +6671,7 @@ window.OPEN_LMS_DATA = {
           "code": "ENGL 2206",
           "name": "Key Concepts in Educational Psychology",
           "search": "engl 2206 key concepts in educational psychology",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -6442,6 +6697,7 @@ window.OPEN_LMS_DATA = {
           "code": "ENGL 2207",
           "name": "Trends and Practices in Teaching English",
           "search": "engl 2207 trends and practices in teaching english",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -6467,6 +6723,7 @@ window.OPEN_LMS_DATA = {
           "code": "ENGL 2208",
           "name": "Testing and Assessment in Language Classroom",
           "search": "engl 2208 testing and assessment in language classroom",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -6492,6 +6749,7 @@ window.OPEN_LMS_DATA = {
           "code": "ENGL 2209",
           "name": "Teaching Project",
           "search": "engl 2209 teaching project",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -6525,6 +6783,7 @@ window.OPEN_LMS_DATA = {
           "code": "HNDFT1101",
           "name": "Fundamental of Chemistry",
           "search": "hndft1101 fundamental of chemistry",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -6550,6 +6809,7 @@ window.OPEN_LMS_DATA = {
           "code": "HNDFT1102",
           "name": "Principles of Microbiology",
           "search": "hndft1102 principles of microbiology",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -6575,6 +6835,7 @@ window.OPEN_LMS_DATA = {
           "code": "HNDFT1103",
           "name": "Food and Nutrition",
           "search": "hndft1103 food and nutrition",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -6600,6 +6861,7 @@ window.OPEN_LMS_DATA = {
           "code": "HNDFT1104",
           "name": "Biochemistry",
           "search": "hndft1104 biochemistry",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -6625,6 +6887,7 @@ window.OPEN_LMS_DATA = {
           "code": "HNDFT1105",
           "name": "Basic Mathematics",
           "search": "hndft1105 basic mathematics",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -6650,6 +6913,7 @@ window.OPEN_LMS_DATA = {
           "code": "HNDFT1106",
           "name": "Information Technology",
           "search": "hndft1106 information technology",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -6675,6 +6939,7 @@ window.OPEN_LMS_DATA = {
           "code": "HNDFT1107",
           "name": "English",
           "search": "hndft1107 english",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -6700,6 +6965,7 @@ window.OPEN_LMS_DATA = {
           "code": "HNDFT1208",
           "name": "Food Engineering",
           "search": "hndft1208 food engineering",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -6725,6 +6991,7 @@ window.OPEN_LMS_DATA = {
           "code": "HNDFT1209",
           "name": "Food Microbiology",
           "search": "hndft1209 food microbiology",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -6750,6 +7017,7 @@ window.OPEN_LMS_DATA = {
           "code": "HNDFT1210",
           "name": "Food Chemistry",
           "search": "hndft1210 food chemistry",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -6775,6 +7043,7 @@ window.OPEN_LMS_DATA = {
           "code": "HNDFT1211",
           "name": "Food Safety Management",
           "search": "hndft1211 food safety management",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -6800,6 +7069,7 @@ window.OPEN_LMS_DATA = {
           "code": "HNDFT1212",
           "name": "Applied Statistics",
           "search": "hndft1212 applied statistics",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -6825,6 +7095,7 @@ window.OPEN_LMS_DATA = {
           "code": "HNDFT1213",
           "name": "Database Management System",
           "search": "hndft1213 database management system",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -6850,6 +7121,7 @@ window.OPEN_LMS_DATA = {
           "code": "HNDFT1214",
           "name": "Communication Skills",
           "search": "hndft1214 communication skills",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -6875,6 +7147,7 @@ window.OPEN_LMS_DATA = {
           "code": "HNDFT1215",
           "name": "Human Value for Professionalism",
           "search": "hndft1215 human value for professionalism",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -6900,6 +7173,7 @@ window.OPEN_LMS_DATA = {
           "code": "HNDFT2116",
           "name": "Fruits, Vegetable and Beverage Processing Technology",
           "search": "hndft2116 fruits, vegetable and beverage processing technology",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -6925,6 +7199,7 @@ window.OPEN_LMS_DATA = {
           "code": "HNDFT2117",
           "name": "Cereal Processing, Bakery and Confectionary Technology",
           "search": "hndft2117 cereal processing, bakery and confectionary technology",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -6950,6 +7225,7 @@ window.OPEN_LMS_DATA = {
           "code": "HNDFT2118",
           "name": "Food Packaging and Labelling",
           "search": "hndft2118 food packaging and labelling",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -6975,6 +7251,7 @@ window.OPEN_LMS_DATA = {
           "code": "HNDFT2119",
           "name": "Dairy Processing Technology",
           "search": "hndft2119 dairy processing technology",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -7000,6 +7277,7 @@ window.OPEN_LMS_DATA = {
           "code": "HNDFT2120",
           "name": "Spice and Condiments Processing Technology",
           "search": "hndft2120 spice and condiments processing technology",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -7033,6 +7311,7 @@ window.OPEN_LMS_DATA = {
           "code": "HNDIT1012",
           "name": "Visual Application Programming",
           "search": "hndit1012 visual application programming",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -7058,6 +7337,7 @@ window.OPEN_LMS_DATA = {
           "code": "HNDIT1022",
           "name": "Web Design",
           "search": "hndit1022 web design",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -7083,6 +7363,7 @@ window.OPEN_LMS_DATA = {
           "code": "HNDIT1032",
           "name": "Computer and Network Systems",
           "search": "hndit1032 computer and network systems",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -7108,6 +7389,7 @@ window.OPEN_LMS_DATA = {
           "code": "HNDIT1042",
           "name": "Information Management and Information Systems",
           "search": "hndit1042 information management and information systems",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -7133,6 +7415,7 @@ window.OPEN_LMS_DATA = {
           "code": "HNDIT1052",
           "name": "ICT Project (Individual)",
           "search": "hndit1052 ict project (individual)",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -7158,6 +7441,7 @@ window.OPEN_LMS_DATA = {
           "code": "HNDIT1062",
           "name": "Communication Skills",
           "search": "hndit1062 communication skills",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -7183,6 +7467,7 @@ window.OPEN_LMS_DATA = {
           "code": "HNDIT2012",
           "name": "Fundamentals of Programming",
           "search": "hndit2012 fundamentals of programming",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -7208,6 +7493,7 @@ window.OPEN_LMS_DATA = {
           "code": "HNDIT2022",
           "name": "Software Development",
           "search": "hndit2022 software development",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -7233,6 +7519,7 @@ window.OPEN_LMS_DATA = {
           "code": "HNDIT2032",
           "name": "System Analysis and Design",
           "search": "hndit2032 system analysis and design",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -7258,6 +7545,7 @@ window.OPEN_LMS_DATA = {
           "code": "HNDIT2042",
           "name": "Data Communication and Computer Networks",
           "search": "hndit2042 data communication and computer networks",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -7283,6 +7571,7 @@ window.OPEN_LMS_DATA = {
           "code": "HNDIT2052",
           "name": "Principles of User Interface Design",
           "search": "hndit2052 principles of user interface design",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -7308,6 +7597,7 @@ window.OPEN_LMS_DATA = {
           "code": "HNDIT2062",
           "name": "ICT Project (Group)",
           "search": "hndit2062 ict project (group)",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -7333,6 +7623,7 @@ window.OPEN_LMS_DATA = {
           "code": "HNDIT2072",
           "name": "Technical Writing",
           "search": "hndit2072 technical writing",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -7358,6 +7649,7 @@ window.OPEN_LMS_DATA = {
           "code": "HNDIT2082",
           "name": "Human Value and Professionalism",
           "search": "hndit2082 human value and professionalism",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -7383,6 +7675,7 @@ window.OPEN_LMS_DATA = {
           "code": "HNDIT3012",
           "name": "Object Oriented Programming",
           "search": "hndit3012 object oriented programming",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -7408,6 +7701,7 @@ window.OPEN_LMS_DATA = {
           "code": "HNDIT3022",
           "name": "Web Programming",
           "search": "hndit3022 web programming",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -7433,6 +7727,7 @@ window.OPEN_LMS_DATA = {
           "code": "HNDIT3032",
           "name": "Data Structures and Algorithms",
           "search": "hndit3032 data structures and algorithms",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -7458,6 +7753,7 @@ window.OPEN_LMS_DATA = {
           "code": "HNDIT3042",
           "name": "Database Management Systems",
           "search": "hndit3042 database management systems",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -7483,6 +7779,7 @@ window.OPEN_LMS_DATA = {
           "code": "HNDIT3052",
           "name": "Operating Systems",
           "search": "hndit3052 operating systems",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -7508,6 +7805,7 @@ window.OPEN_LMS_DATA = {
           "code": "HNDIT3062",
           "name": "Information and Computer Security",
           "search": "hndit3062 information and computer security",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -7533,6 +7831,7 @@ window.OPEN_LMS_DATA = {
           "code": "HNDIT3072",
           "name": "Statistics for IT",
           "search": "hndit3072 statistics for it",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -7558,6 +7857,7 @@ window.OPEN_LMS_DATA = {
           "code": "HNDIT4012",
           "name": "Software Engineering",
           "search": "hndit4012 software engineering",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -7583,6 +7883,7 @@ window.OPEN_LMS_DATA = {
           "code": "HNDIT4022",
           "name": "Software Quality Assurance",
           "search": "hndit4022 software quality assurance",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -7608,6 +7909,7 @@ window.OPEN_LMS_DATA = {
           "code": "HNDIT4032",
           "name": "IT Project Management",
           "search": "hndit4032 it project management",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -7633,6 +7935,7 @@ window.OPEN_LMS_DATA = {
           "code": "HNDIT4042",
           "name": "Professional World",
           "search": "hndit4042 professional world",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -7658,6 +7961,7 @@ window.OPEN_LMS_DATA = {
           "code": "HNDIT4212",
           "name": "Machine Learning",
           "search": "hndit4212 machine learning",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -7683,6 +7987,7 @@ window.OPEN_LMS_DATA = {
           "code": "HNDIT4052",
           "name": "Programming Individual Project",
           "search": "hndit4052 programming individual project",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -7708,6 +8013,7 @@ window.OPEN_LMS_DATA = {
           "code": "HNDIT4222",
           "name": "Business Analysis Practice",
           "search": "hndit4222 business analysis practice",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -7733,6 +8039,7 @@ window.OPEN_LMS_DATA = {
           "code": "HNDIT4232",
           "name": "Enterprise Architecture",
           "search": "hndit4232 enterprise architecture",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -7758,6 +8065,7 @@ window.OPEN_LMS_DATA = {
           "code": "HNDIT4242",
           "name": "Computer Services Management",
           "search": "hndit4242 computer services management",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -7783,6 +8091,7 @@ window.OPEN_LMS_DATA = {
           "code": "HNDIT4252",
           "name": "Mobile Application Development",
           "search": "hndit4252 mobile application development",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -7816,6 +8125,7 @@ window.OPEN_LMS_DATA = {
           "code": "MG1101",
           "name": "Principles of Management",
           "search": "mg1101 principles of management",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -7841,6 +8151,7 @@ window.OPEN_LMS_DATA = {
           "code": "MG1102",
           "name": "Business Mathematics and Statistics",
           "search": "mg1102 business mathematics and statistics",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -7866,6 +8177,7 @@ window.OPEN_LMS_DATA = {
           "code": "MG1103",
           "name": "Sociology and Industrial Psychology",
           "search": "mg1103 sociology and industrial psychology",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -7891,6 +8203,7 @@ window.OPEN_LMS_DATA = {
           "code": "MG1104",
           "name": "Micro and Macro Economics",
           "search": "mg1104 micro and macro economics",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -7916,6 +8229,7 @@ window.OPEN_LMS_DATA = {
           "code": "MG1105",
           "name": "Fundamentals for IT",
           "search": "mg1105 fundamentals for it",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -7941,6 +8255,7 @@ window.OPEN_LMS_DATA = {
           "code": "MG1106",
           "name": "Business Communication for Beginners",
           "search": "mg1106 business communication for beginners",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -7966,6 +8281,7 @@ window.OPEN_LMS_DATA = {
           "code": "MG1201",
           "name": "Introduction to People Management",
           "search": "mg1201 introduction to people management",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -7991,6 +8307,7 @@ window.OPEN_LMS_DATA = {
           "code": "MG1202",
           "name": "Introduction to Marketing Management",
           "search": "mg1202 introduction to marketing management",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -8016,6 +8333,7 @@ window.OPEN_LMS_DATA = {
           "code": "MG1203",
           "name": "Fundamentals of Accounting",
           "search": "mg1203 fundamentals of accounting",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -8041,6 +8359,7 @@ window.OPEN_LMS_DATA = {
           "code": "MG1204",
           "name": "Business Law",
           "search": "mg1204 business law",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -8066,6 +8385,7 @@ window.OPEN_LMS_DATA = {
           "code": "MG1205",
           "name": "Information Systems",
           "search": "mg1205 information systems",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -8091,6 +8411,7 @@ window.OPEN_LMS_DATA = {
           "code": "MG1206",
           "name": "Business Communication for Academic Purposes",
           "search": "mg1206 business communication for academic purposes",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -8116,6 +8437,7 @@ window.OPEN_LMS_DATA = {
           "code": "MG1207",
           "name": "Human Values and Professional Ethics",
           "search": "mg1207 human values and professional ethics",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -8141,6 +8463,7 @@ window.OPEN_LMS_DATA = {
           "code": "MG2101",
           "name": "Organizational Behavior",
           "search": "mg2101 organizational behavior",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -8166,6 +8489,7 @@ window.OPEN_LMS_DATA = {
           "code": "MG2102",
           "name": "Computer Networking and Internet",
           "search": "mg2102 computer networking and internet",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -8191,6 +8515,7 @@ window.OPEN_LMS_DATA = {
           "code": "MG2103",
           "name": "Business Communication for Professional Purposes",
           "search": "mg2103 business communication for professional purposes",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -8216,6 +8541,7 @@ window.OPEN_LMS_DATA = {
           "code": "MG2104",
           "name": "Change Management",
           "search": "mg2104 change management",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -8241,6 +8567,7 @@ window.OPEN_LMS_DATA = {
           "code": "MG2105",
           "name": "Integrated Marketing Communication",
           "search": "mg2105 integrated marketing communication",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -8266,6 +8593,7 @@ window.OPEN_LMS_DATA = {
           "code": "MG2106",
           "name": "Consumer Behaviour",
           "search": "mg2106 consumer behaviour",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -8291,6 +8619,7 @@ window.OPEN_LMS_DATA = {
           "code": "MG2107",
           "name": "Digital Marketing",
           "search": "mg2107 digital marketing",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -8316,6 +8645,7 @@ window.OPEN_LMS_DATA = {
           "code": "MG2108",
           "name": "Maintaining People in Business",
           "search": "mg2108 maintaining people in business",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -8341,6 +8671,7 @@ window.OPEN_LMS_DATA = {
           "code": "MG2109",
           "name": "Administering People in Business",
           "search": "mg2109 administering people in business",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -8366,6 +8697,7 @@ window.OPEN_LMS_DATA = {
           "code": "MG2110",
           "name": "Labour Law",
           "search": "mg2110 labour law",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -8391,6 +8723,7 @@ window.OPEN_LMS_DATA = {
           "code": "MG2201",
           "name": "Finance for Decision Making",
           "search": "mg2201 finance for decision making",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -8416,6 +8749,7 @@ window.OPEN_LMS_DATA = {
           "code": "MG2202",
           "name": "Total Quality Management",
           "search": "mg2202 total quality management",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -8441,6 +8775,7 @@ window.OPEN_LMS_DATA = {
           "code": "MG2203",
           "name": "Research Methodology",
           "search": "mg2203 research methodology",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -8466,6 +8801,7 @@ window.OPEN_LMS_DATA = {
           "code": "MG2204",
           "name": "Management Information Systems",
           "search": "mg2204 management information systems",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -8491,6 +8827,7 @@ window.OPEN_LMS_DATA = {
           "code": "MG2205",
           "name": "Soft Skills for Personal Development",
           "search": "mg2205 soft skills for personal development",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -8516,6 +8853,7 @@ window.OPEN_LMS_DATA = {
           "code": "MG2206",
           "name": "Marketing Research",
           "search": "mg2206 marketing research",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -8541,6 +8879,7 @@ window.OPEN_LMS_DATA = {
           "code": "MG2207",
           "name": "Sales and Supply Chain Management",
           "search": "mg2207 sales and supply chain management",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -8566,6 +8905,7 @@ window.OPEN_LMS_DATA = {
           "code": "MG2208",
           "name": "Service Marketing",
           "search": "mg2208 service marketing",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -8591,6 +8931,7 @@ window.OPEN_LMS_DATA = {
           "code": "MG2209",
           "name": "Human Resource Development",
           "search": "mg2209 human resource development",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -8616,6 +8957,7 @@ window.OPEN_LMS_DATA = {
           "code": "MG2210",
           "name": "Strategic Human Resource Management",
           "search": "mg2210 strategic human resource management",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -8641,6 +8983,7 @@ window.OPEN_LMS_DATA = {
           "code": "MG2211",
           "name": "Legal Implementation for Industrial Relations",
           "search": "mg2211 legal implementation for industrial relations",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -8666,6 +9009,7 @@ window.OPEN_LMS_DATA = {
           "code": "MG3101",
           "name": "Strategic Management",
           "search": "mg3101 strategic management",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -8691,6 +9035,7 @@ window.OPEN_LMS_DATA = {
           "code": "MG3102",
           "name": "Entrepreneurship",
           "search": "mg3102 entrepreneurship",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -8716,6 +9061,7 @@ window.OPEN_LMS_DATA = {
           "code": "MG3103",
           "name": "Research Project",
           "search": "mg3103 research project",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -8741,6 +9087,7 @@ window.OPEN_LMS_DATA = {
           "code": "MG3104",
           "name": "Brand Management",
           "search": "mg3104 brand management",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -8766,6 +9113,7 @@ window.OPEN_LMS_DATA = {
           "code": "MG3105",
           "name": "Global Marketing",
           "search": "mg3105 global marketing",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -8791,6 +9139,7 @@ window.OPEN_LMS_DATA = {
           "code": "MG3106",
           "name": "International Human Resource Management",
           "search": "mg3106 international human resource management",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -8824,6 +9173,7 @@ window.OPEN_LMS_DATA = {
           "code": "PM1101",
           "name": "Introduction to Project Management",
           "search": "pm1101 introduction to project management",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -8849,6 +9199,7 @@ window.OPEN_LMS_DATA = {
           "code": "PM1102",
           "name": "Principles of Management",
           "search": "pm1102 principles of management",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -8874,6 +9225,7 @@ window.OPEN_LMS_DATA = {
           "code": "PM1103",
           "name": "Project Planning",
           "search": "pm1103 project planning",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -8899,6 +9251,7 @@ window.OPEN_LMS_DATA = {
           "code": "PM1104",
           "name": "Micro Economics",
           "search": "pm1104 micro economics",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -8924,6 +9277,7 @@ window.OPEN_LMS_DATA = {
           "code": "PM1105",
           "name": "Business Mathematics and Statistics",
           "search": "pm1105 business mathematics and statistics",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -8949,6 +9303,7 @@ window.OPEN_LMS_DATA = {
           "code": "PM1106",
           "name": "Information Technology I",
           "search": "pm1106 information technology i",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -8974,6 +9329,7 @@ window.OPEN_LMS_DATA = {
           "code": "PM1107",
           "name": "Business Communication I",
           "search": "pm1107 business communication i",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -8999,6 +9355,7 @@ window.OPEN_LMS_DATA = {
           "code": "PM1201",
           "name": "Project Procurement Management",
           "search": "pm1201 project procurement management",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -9024,6 +9381,7 @@ window.OPEN_LMS_DATA = {
           "code": "PM1202",
           "name": "Project Scope and Schedule Management",
           "search": "pm1202 project scope and schedule management",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -9049,6 +9407,7 @@ window.OPEN_LMS_DATA = {
           "code": "PM1203",
           "name": "Project Financial Management",
           "search": "pm1203 project financial management",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -9074,6 +9433,7 @@ window.OPEN_LMS_DATA = {
           "code": "PM1204",
           "name": "Project Human Resource Management",
           "search": "pm1204 project human resource management",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -9099,6 +9459,7 @@ window.OPEN_LMS_DATA = {
           "code": "PM1205",
           "name": "Business Mathematics and Statistics II",
           "search": "pm1205 business mathematics and statistics ii",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -9124,6 +9485,7 @@ window.OPEN_LMS_DATA = {
           "code": "PM1206",
           "name": "Information Technology II",
           "search": "pm1206 information technology ii",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -9149,6 +9511,7 @@ window.OPEN_LMS_DATA = {
           "code": "PM1207",
           "name": "Business Communication II",
           "search": "pm1207 business communication ii",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -9174,6 +9537,7 @@ window.OPEN_LMS_DATA = {
           "code": "PM1208",
           "name": "Human Value",
           "search": "pm1208 human value",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -9199,6 +9563,7 @@ window.OPEN_LMS_DATA = {
           "code": "PM2101",
           "name": "Project Integration",
           "search": "pm2101 project integration",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -9224,6 +9589,7 @@ window.OPEN_LMS_DATA = {
           "code": "PM2102",
           "name": "Project Communication and Stakeholder Management",
           "search": "pm2102 project communication and stakeholder management",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -9249,6 +9615,7 @@ window.OPEN_LMS_DATA = {
           "code": "PM2103",
           "name": "Project Quality Management",
           "search": "pm2103 project quality management",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -9274,6 +9641,7 @@ window.OPEN_LMS_DATA = {
           "code": "PM2104",
           "name": "Software Tools and Cloud Services for Project Management",
           "search": "pm2104 software tools and cloud services for project management",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -9299,6 +9667,7 @@ window.OPEN_LMS_DATA = {
           "code": "PM2105",
           "name": "Project Monitoring and Evaluation",
           "search": "pm2105 project monitoring and evaluation",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -9332,6 +9701,7 @@ window.OPEN_LMS_DATA = {
           "code": "24QS11014",
           "name": "Mathematics and Statistics",
           "search": "24qs11014 mathematics and statistics",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -9357,6 +9727,7 @@ window.OPEN_LMS_DATA = {
           "code": "24QS11023",
           "name": "Economics",
           "search": "24qs11023 economics",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -9382,6 +9753,7 @@ window.OPEN_LMS_DATA = {
           "code": "24QS11032",
           "name": "English and Communication Skills I",
           "search": "24qs11032 english and communication skills i",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -9407,6 +9779,7 @@ window.OPEN_LMS_DATA = {
           "code": "24QS11043",
           "name": "Programming Concepts",
           "search": "24qs11043 programming concepts",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -9432,6 +9805,7 @@ window.OPEN_LMS_DATA = {
           "code": "24QS11053",
           "name": "Engineering Drawing",
           "search": "24qs11053 engineering drawing",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -9457,6 +9831,7 @@ window.OPEN_LMS_DATA = {
           "code": "24QS11064",
           "name": "Civil Engineering Construction I",
           "search": "24qs11064 civil engineering construction i",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -9482,6 +9857,7 @@ window.OPEN_LMS_DATA = {
           "code": "24QS11072",
           "name": "Construction Material",
           "search": "24qs11072 construction material",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -9507,6 +9883,7 @@ window.OPEN_LMS_DATA = {
           "code": "24QS12082",
           "name": "Principles of Management",
           "search": "24qs12082 principles of management",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -9532,6 +9909,7 @@ window.OPEN_LMS_DATA = {
           "code": "24QS12094",
           "name": "Measurement I",
           "search": "24qs12094 measurement i",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -9557,6 +9935,7 @@ window.OPEN_LMS_DATA = {
           "code": "24QS12104",
           "name": "Engineering Surveying",
           "search": "24qs12104 engineering surveying",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -9582,6 +9961,7 @@ window.OPEN_LMS_DATA = {
           "code": "24QS12112",
           "name": "Structural Mechanics",
           "search": "24qs12112 structural mechanics",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -9607,6 +9987,7 @@ window.OPEN_LMS_DATA = {
           "code": "24QS12123",
           "name": "Computer Aided Drawings",
           "search": "24qs12123 computer aided drawings",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -9632,6 +10013,7 @@ window.OPEN_LMS_DATA = {
           "code": "24QS12132",
           "name": "Introduction to Law",
           "search": "24qs12132 introduction to law",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -9657,6 +10039,7 @@ window.OPEN_LMS_DATA = {
           "code": "24QS12141",
           "name": "Human Values and Professional Ethics",
           "search": "24qs12141 human values and professional ethics",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -9682,6 +10065,7 @@ window.OPEN_LMS_DATA = {
           "code": "24QS12152",
           "name": "English and Communication Skills II",
           "search": "24qs12152 english and communication skills ii",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -9707,6 +10091,7 @@ window.OPEN_LMS_DATA = {
           "code": "24QS21164",
           "name": "Measurement II",
           "search": "24qs21164 measurement ii",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -9732,6 +10117,7 @@ window.OPEN_LMS_DATA = {
           "code": "24QS21173",
           "name": "Construction Economics",
           "search": "24qs21173 construction economics",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -9757,6 +10143,7 @@ window.OPEN_LMS_DATA = {
           "code": "24QS21183",
           "name": "Contract Administration",
           "search": "24qs21183 contract administration",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -9782,6 +10169,7 @@ window.OPEN_LMS_DATA = {
           "code": "24QS21193",
           "name": "Project Management",
           "search": "24qs21193 project management",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -9807,6 +10195,7 @@ window.OPEN_LMS_DATA = {
           "code": "24QS21204",
           "name": "Civil Engineering Construction II",
           "search": "24qs21204 civil engineering construction ii",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -9832,6 +10221,7 @@ window.OPEN_LMS_DATA = {
           "code": "24QS21213",
           "name": "Procurement",
           "search": "24qs21213 procurement",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -9857,6 +10247,7 @@ window.OPEN_LMS_DATA = {
           "code": "24QS22223",
           "name": "Price Analysis",
           "search": "24qs22223 price analysis",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -9882,6 +10273,7 @@ window.OPEN_LMS_DATA = {
           "code": "24QS22232",
           "name": "Contract Law",
           "search": "24qs22232 contract law",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -9907,6 +10299,7 @@ window.OPEN_LMS_DATA = {
           "code": "24QS22242",
           "name": "Project",
           "search": "24qs22242 project",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -9932,6 +10325,7 @@ window.OPEN_LMS_DATA = {
           "code": "24QS22252",
           "name": "Research Methods",
           "search": "24qs22252 research methods",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -9957,6 +10351,7 @@ window.OPEN_LMS_DATA = {
           "code": "24QS22263",
           "name": "Digital Quantity Surveying",
           "search": "24qs22263 digital quantity surveying",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -9982,6 +10377,7 @@ window.OPEN_LMS_DATA = {
           "code": "24QS22273",
           "name": "Accounting and Finance for QS Profession",
           "search": "24qs22273 accounting and finance for qs profession",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -10007,6 +10403,7 @@ window.OPEN_LMS_DATA = {
           "code": "24QS22283",
           "name": "Structural Design and Detailing",
           "search": "24qs22283 structural design and detailing",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -10032,6 +10429,7 @@ window.OPEN_LMS_DATA = {
           "code": "24QS22292",
           "name": "English and Communication Skills III",
           "search": "24qs22292 english and communication skills iii",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -10065,6 +10463,7 @@ window.OPEN_LMS_DATA = {
           "code": "AG1101",
           "name": "Principles of Crop Production",
           "search": "ag1101 principles of crop production",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -10090,6 +10489,7 @@ window.OPEN_LMS_DATA = {
           "code": "AG1102",
           "name": "Principles of Livestock Production",
           "search": "ag1102 principles of livestock production",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -10115,6 +10515,7 @@ window.OPEN_LMS_DATA = {
           "code": "AG1103",
           "name": "Plant and Soil",
           "search": "ag1103 plant and soil",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -10140,6 +10541,7 @@ window.OPEN_LMS_DATA = {
           "code": "AG1104",
           "name": "Farm Power and Machinery",
           "search": "ag1104 farm power and machinery",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -10165,6 +10567,7 @@ window.OPEN_LMS_DATA = {
           "code": "AG1105",
           "name": "Principles and Practice of Agricultural Economics",
           "search": "ag1105 principles and practice of agricultural economics",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -10190,6 +10593,7 @@ window.OPEN_LMS_DATA = {
           "code": "AG1106",
           "name": "Information and Communication Technology",
           "search": "ag1106 information and communication technology",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -10215,6 +10619,7 @@ window.OPEN_LMS_DATA = {
           "code": "AG1107",
           "name": "English for Technology I",
           "search": "ag1107 english for technology i",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -10240,6 +10645,7 @@ window.OPEN_LMS_DATA = {
           "code": "AG1208",
           "name": "Field Crop Production",
           "search": "ag1208 field crop production",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -10265,6 +10671,7 @@ window.OPEN_LMS_DATA = {
           "code": "AG1209",
           "name": "Protective Crop Production and Floriculture",
           "search": "ag1209 protective crop production and floriculture",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -10290,6 +10697,7 @@ window.OPEN_LMS_DATA = {
           "code": "AG1210",
           "name": "Animal Nutrition and Agrostology",
           "search": "ag1210 animal nutrition and agrostology",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -10315,6 +10723,7 @@ window.OPEN_LMS_DATA = {
           "code": "AG1211",
           "name": "Crop Nutrition",
           "search": "ag1211 crop nutrition",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -10340,6 +10749,7 @@ window.OPEN_LMS_DATA = {
           "code": "AG1212",
           "name": "Principles and Practice of Plant Protection",
           "search": "ag1212 principles and practice of plant protection",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -10365,6 +10775,7 @@ window.OPEN_LMS_DATA = {
           "code": "AG1213",
           "name": "Genetics and Breeding",
           "search": "ag1213 genetics and breeding",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -10390,6 +10801,7 @@ window.OPEN_LMS_DATA = {
           "code": "AG1214",
           "name": "English for Technology",
           "search": "ag1214 english for technology",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -10415,6 +10827,7 @@ window.OPEN_LMS_DATA = {
           "code": "AG1215",
           "name": "Human Value for Social Harmony",
           "search": "ag1215 human value for social harmony",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -10440,6 +10853,7 @@ window.OPEN_LMS_DATA = {
           "code": "AG2116",
           "name": "Horticulture Crop Production and Landscape Gardening",
           "search": "ag2116 horticulture crop production and landscape gardening",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -10465,6 +10879,7 @@ window.OPEN_LMS_DATA = {
           "code": "AG2117",
           "name": "Plantation Crop Production",
           "search": "ag2117 plantation crop production",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -10490,6 +10905,7 @@ window.OPEN_LMS_DATA = {
           "code": "AG2118",
           "name": "Animal Health and Welfare",
           "search": "ag2118 animal health and welfare",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -10515,6 +10931,7 @@ window.OPEN_LMS_DATA = {
           "code": "AG2119",
           "name": "Ruminant and Non-Ruminant Animal Production",
           "search": "ag2119 ruminant and non-ruminant animal production",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -10540,6 +10957,7 @@ window.OPEN_LMS_DATA = {
           "code": "AG2120",
           "name": "Principles and Practice of Agricultural Extension",
           "search": "ag2120 principles and practice of agricultural extension",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -10565,6 +10983,7 @@ window.OPEN_LMS_DATA = {
           "code": "AG2121",
           "name": "Farm Power and Mechanization",
           "search": "ag2121 farm power and mechanization",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -10590,6 +11009,7 @@ window.OPEN_LMS_DATA = {
           "code": "AG2122",
           "name": "Basic Mathematics and Statistics",
           "search": "ag2122 basic mathematics and statistics",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -10615,6 +11035,7 @@ window.OPEN_LMS_DATA = {
           "code": "AG2223",
           "name": "Export Agriculture Crop Production",
           "search": "ag2223 export agriculture crop production",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -10640,6 +11061,7 @@ window.OPEN_LMS_DATA = {
           "code": "AG2224",
           "name": "Aquaculture and Fisheries Management",
           "search": "ag2224 aquaculture and fisheries management",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -10665,6 +11087,7 @@ window.OPEN_LMS_DATA = {
           "code": "AG2225",
           "name": "Food Processing and Post Harvest Quality Management",
           "search": "ag2225 food processing and post harvest quality management",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -10690,6 +11113,7 @@ window.OPEN_LMS_DATA = {
           "code": "AG2226",
           "name": "Marketing Essentials and Agri Business Management",
           "search": "ag2226 marketing essentials and agri business management",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -10715,6 +11139,7 @@ window.OPEN_LMS_DATA = {
           "code": "AG2227",
           "name": "Human Resource Management and Career Development",
           "search": "ag2227 human resource management and career development",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -10740,6 +11165,7 @@ window.OPEN_LMS_DATA = {
           "code": "AG2228",
           "name": "Scientific Communication and Mini Project",
           "search": "ag2228 scientific communication and mini project",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -10765,6 +11191,7 @@ window.OPEN_LMS_DATA = {
           "code": "AG2229",
           "name": "Programming for Agriculture Applications",
           "search": "ag2229 programming for agriculture applications",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -10790,6 +11217,7 @@ window.OPEN_LMS_DATA = {
           "code": "AG2230",
           "name": "Entrepreneurship and Small Business Management",
           "search": "ag2230 entrepreneurship and small business management",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -10815,6 +11243,7 @@ window.OPEN_LMS_DATA = {
           "code": "AG2231",
           "name": "Principles and Practices of Project Management",
           "search": "ag2231 principles and practices of project management",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -10848,6 +11277,7 @@ window.OPEN_LMS_DATA = {
           "code": "THM11013",
           "name": "Principles of Management",
           "search": "thm11013 principles of management",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -10873,6 +11303,7 @@ window.OPEN_LMS_DATA = {
           "code": "THM11023",
           "name": "Tourism Principles and Practices",
           "search": "thm11023 tourism principles and practices",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -10898,6 +11329,7 @@ window.OPEN_LMS_DATA = {
           "code": "THM11033",
           "name": "Tourism Economics",
           "search": "thm11033 tourism economics",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -10923,6 +11355,7 @@ window.OPEN_LMS_DATA = {
           "code": "THM11042",
           "name": "Sri Lankan Studies",
           "search": "thm11042 sri lankan studies",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -10948,6 +11381,7 @@ window.OPEN_LMS_DATA = {
           "code": "THM11053",
           "name": "Information and Communication Technology",
           "search": "thm11053 information and communication technology",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -10973,6 +11407,7 @@ window.OPEN_LMS_DATA = {
           "code": "THM11062",
           "name": "Business English",
           "search": "thm11062 business english",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -10998,6 +11433,7 @@ window.OPEN_LMS_DATA = {
           "code": "THM12073",
           "name": "Introduction to Hospitality Management",
           "search": "thm12073 introduction to hospitality management",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -11023,6 +11459,7 @@ window.OPEN_LMS_DATA = {
           "code": "THM12083",
           "name": "Tourism Policy Planning and Development",
           "search": "thm12083 tourism policy planning and development",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -11048,6 +11485,7 @@ window.OPEN_LMS_DATA = {
           "code": "THM12093",
           "name": "Entrepreneurship and Business Networking for Tourism",
           "search": "thm12093 entrepreneurship and business networking for tourism",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -11073,6 +11511,7 @@ window.OPEN_LMS_DATA = {
           "code": "THM12102",
           "name": "Legal Environment of Tourism and Hospitality Industry",
           "search": "thm12102 legal environment of tourism and hospitality industry",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -11098,6 +11537,7 @@ window.OPEN_LMS_DATA = {
           "code": "THM12113",
           "name": "Information and Communication Technology for Tourism and Hospitality",
           "search": "thm12113 information and communication technology for tourism and hospitality",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -11123,6 +11563,7 @@ window.OPEN_LMS_DATA = {
           "code": "THM12122",
           "name": "Business English II",
           "search": "thm12122 business english ii",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -11148,6 +11589,7 @@ window.OPEN_LMS_DATA = {
           "code": "THM12131",
           "name": "Human Values and Professionalism",
           "search": "thm12131 human values and professionalism",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -11173,6 +11615,7 @@ window.OPEN_LMS_DATA = {
           "code": "THM12143",
           "name": "Foreign Languages (German)",
           "search": "thm12143 foreign languages (german)",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -11198,6 +11641,7 @@ window.OPEN_LMS_DATA = {
           "code": "THM21153",
           "name": "Hotel Housekeeping",
           "search": "thm21153 hotel housekeeping",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -11223,6 +11667,7 @@ window.OPEN_LMS_DATA = {
           "code": "THM21163",
           "name": "Hotel Front Office Operations",
           "search": "thm21163 hotel front office operations",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -11248,6 +11693,7 @@ window.OPEN_LMS_DATA = {
           "code": "THM21173",
           "name": "Restaurant and Bar Management",
           "search": "thm21173 restaurant and bar management",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -11273,6 +11719,7 @@ window.OPEN_LMS_DATA = {
           "code": "THM21183",
           "name": "Human Resource Management for Tourism and Hospitality Industry",
           "search": "thm21183 human resource management for tourism and hospitality industry",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -11298,6 +11745,7 @@ window.OPEN_LMS_DATA = {
           "code": "THM21192",
           "name": "Tourism and Cultural Diversity",
           "search": "thm21192 tourism and cultural diversity",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -11323,6 +11771,7 @@ window.OPEN_LMS_DATA = {
           "code": "THM21202",
           "name": "Business Communication",
           "search": "thm21202 business communication",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -11348,6 +11797,7 @@ window.OPEN_LMS_DATA = {
           "code": "THM21213",
           "name": "Foreign Languages (German/French/Japanese/Chinese)",
           "search": "thm21213 foreign languages (german/french/japanese/chinese)",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -11373,6 +11823,7 @@ window.OPEN_LMS_DATA = {
           "code": "THM22223",
           "name": "Basic Management Accounting for Tourism and Hospitality Industry",
           "search": "thm22223 basic management accounting for tourism and hospitality industry",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -11398,6 +11849,7 @@ window.OPEN_LMS_DATA = {
           "code": "THM22233",
           "name": "Introduction to Tourism and Hospitality Marketing",
           "search": "thm22233 introduction to tourism and hospitality marketing",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -11423,6 +11875,7 @@ window.OPEN_LMS_DATA = {
           "code": "THM22242",
           "name": "Introduction to E-Tourism",
           "search": "thm22242 introduction to e-tourism",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -11448,6 +11901,7 @@ window.OPEN_LMS_DATA = {
           "code": "THM22252",
           "name": "Introduction to Special Interest Tourism",
           "search": "thm22252 introduction to special interest tourism",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -11473,6 +11927,7 @@ window.OPEN_LMS_DATA = {
           "code": "THM22262",
           "name": "Project Management",
           "search": "thm22262 project management",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -11498,6 +11953,7 @@ window.OPEN_LMS_DATA = {
           "code": "THM22272",
           "name": "Business Communication II",
           "search": "thm22272 business communication ii",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -11523,6 +11979,7 @@ window.OPEN_LMS_DATA = {
           "code": "THM22283",
           "name": "Foreign Languages (Japanese/Chinese/German/French)",
           "search": "thm22283 foreign languages (japanese/chinese/german/french)",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -11548,6 +12005,7 @@ window.OPEN_LMS_DATA = {
           "code": "THM31292",
           "name": "Tourism and Heritage Resource Management",
           "search": "thm31292 tourism and heritage resource management",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -11573,6 +12031,7 @@ window.OPEN_LMS_DATA = {
           "code": "THM31303",
           "name": "Tourism and Environmental Management",
           "search": "thm31303 tourism and environmental management",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -11598,6 +12057,7 @@ window.OPEN_LMS_DATA = {
           "code": "THM31312",
           "name": "Introduction to MICE Tourism",
           "search": "thm31312 introduction to mice tourism",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -11623,6 +12083,7 @@ window.OPEN_LMS_DATA = {
           "code": "THM31323",
           "name": "Tour Designing and Tour Operation",
           "search": "thm31323 tour designing and tour operation",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -11648,6 +12109,7 @@ window.OPEN_LMS_DATA = {
           "code": "THM31333",
           "name": "Risk and Crisis Management",
           "search": "thm31333 risk and crisis management",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
@@ -11673,6 +12135,7 @@ window.OPEN_LMS_DATA = {
           "code": "THM31343",
           "name": "Foreign Language (German/Japanese/Chinese/French)",
           "search": "thm31343 foreign language (german/japanese/chinese/french)",
+          "lmsGapVerified": false,
           "resources": [
             {
               "title": "YouTube lesson search",
