@@ -1,5 +1,5 @@
 /* Module titles are extracted from the repository's existing SLIATE LMS-derived course directories. They may represent different curriculum batches. Discovery links are searches, not verified learning resources. */
-window.OPEN_LMS_DATA = {
+const OPEN_LMS_DATA = {
   "courses": [
     {
       "id": "HNDA",
@@ -12251,3 +12251,30 @@ window.OPEN_LMS_DATA = {
     }
   ]
 };
+
+function filterModules(courseId, query) {
+  const course = OPEN_LMS_DATA.courses.find(item => item.id === courseId);
+  if (!course) return [];
+  const term = String(query || '').trim().toLowerCase();
+  return course.modules.filter(module => !term || (module.code + ' ' + module.name).toLowerCase().includes(term));
+}
+function getResources(courseId, moduleCode) {
+  const course = OPEN_LMS_DATA.courses.find(item => item.id === courseId);
+  if (!course) return [];
+  const module = course.modules.find(item => item.code === moduleCode);
+  if (!module) return [];
+  const discovery = module.resources || [];
+  const curated = OPEN_LMS_DATA.sources.filter(item => (item.courseIds || []).includes(courseId));
+  return discovery.concat(curated);
+}
+function filterResources(resources, filters) {
+  const options = filters || {};
+  return resources.filter(item =>
+    (!options.type || options.type === 'all' || item.type === options.type) &&
+    (!options.priority || options.priority === 'all' || String(item.priority) === String(options.priority))
+  );
+}
+if (typeof window !== 'undefined') window.OPEN_LMS_DATA = OPEN_LMS_DATA;
+if (typeof module !== 'undefined' && module.exports) {
+  module.exports = Object.assign({}, OPEN_LMS_DATA, {filterModules, getResources, filterResources});
+}
