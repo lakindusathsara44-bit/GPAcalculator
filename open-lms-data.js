@@ -11699,6 +11699,8 @@ window.OPEN_LMS_DATA = {
   ],
   "sources": [
     {
+      "sourceType": "curated",
+      "courseIds": ["HNDA","HNDBA","HNDBF","HNDBSE","HNDE-Civil","HNDE-Electrical","HNDE-Mechanical","HND-English","HNDFT","HNDIT","HNDM","HNDPM","HNDQS","HNDT-Agri","HNDTHM"],
       "title": "MIT OpenCourseWare",
       "provider": "Massachusetts Institute of Technology",
       "type": "Open course materials",
@@ -11708,6 +11710,8 @@ window.OPEN_LMS_DATA = {
       "reason": "Strong academic foundations and complete course materials; check each course for syllabus fit."
     },
     {
+      "sourceType": "curated",
+      "courseIds": ["HNDA","HNDBA","HNDBF","HNDBSE","HNDE-Civil","HNDE-Electrical","HNDE-Mechanical","HND-English","HNDFT","HNDIT","HNDM","HNDPM","HNDQS","HNDT-Agri","HNDTHM"],
       "title": "OpenStax",
       "provider": "Rice University",
       "type": "Open textbooks",
@@ -11717,6 +11721,8 @@ window.OPEN_LMS_DATA = {
       "reason": "Useful for building core subject knowledge with structured textbooks."
     },
     {
+      "sourceType": "curated",
+      "courseIds": ["HNDA","HNDBA","HNDBF","HNDBSE","HNDE-Civil","HNDE-Electrical","HNDE-Mechanical","HND-English","HNDFT","HNDIT","HNDM","HNDPM","HNDQS","HNDT-Agri","HNDTHM"],
       "title": "Khan Academy",
       "provider": "Khan Academy",
       "type": "Lessons and practice",
@@ -11726,6 +11732,8 @@ window.OPEN_LMS_DATA = {
       "reason": "Helpful when prerequisite concepts need clearer step-by-step explanations."
     },
     {
+      "sourceType": "curated",
+      "courseIds": ["HNDA","HNDBA","HNDBF","HNDBSE","HNDE-Civil","HNDE-Electrical","HNDE-Mechanical","HND-English","HNDFT","HNDIT","HNDM","HNDPM","HNDQS","HNDT-Agri","HNDTHM"],
       "title": "Open Educational Resources — OUSL Library",
       "provider": "The Open University of Sri Lanka",
       "type": "OER directory",
@@ -11735,6 +11743,8 @@ window.OPEN_LMS_DATA = {
       "reason": "A locally relevant starting point for finding legitimate open learning materials."
     },
     {
+      "sourceType": "curated",
+      "courseIds": ["HNDIT","HNDBSE"],
       "title": "MDN Learn Web Development",
       "provider": "Mozilla",
       "type": "Technical documentation and tutorials",
@@ -11744,6 +11754,8 @@ window.OPEN_LMS_DATA = {
       "reason": "Practical skills that complement computing and software development modules."
     },
     {
+      "sourceType": "curated",
+      "courseIds": ["HNDIT","HNDBSE"],
       "title": "freeCodeCamp",
       "provider": "freeCodeCamp",
       "type": "Interactive coding lessons",
@@ -11753,6 +11765,8 @@ window.OPEN_LMS_DATA = {
       "reason": "Hands-on practice for programming and web development skills."
     },
     {
+      "sourceType": "curated",
+      "courseIds": ["HNDIT","HNDBA","HNDBF","HNDA"],
       "title": "Microsoft Learn",
       "provider": "Microsoft",
       "type": "Technical learning paths",
@@ -11762,6 +11776,8 @@ window.OPEN_LMS_DATA = {
       "reason": "Industry tools and applied skills for IT and business technology."
     },
     {
+      "sourceType": "curated",
+      "courseIds": ["HNDT-Agri","HNDFT"],
       "title": "FAO eLearning Academy",
       "provider": "Food and Agriculture Organization of the United Nations",
       "type": "Online courses",
