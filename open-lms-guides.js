@@ -165,9 +165,9 @@
     if (/business law|corporate law/.test(s)) return "law";
     if (/auditing|assurance/.test(s)) return "audit";
     if (/taxation/.test(s)) return "tax";
-    if (/financial management|investment|portfolio/.test(s)) return "finance";
+    if (/financial management|financial modelling|investment|portfolio/.test(s)) return "finance";
     if (/management accounting|cost management/.test(s)) return "costing";
-    if (/financial reporting|accounting standards|corporate reporting|advanced financial accounting|financial accounting/.test(s)) return "reporting";
+    if (/financial reporting|accounting standards|corporate reporting|public sector accounting|advanced financial accounting|financial accounting/.test(s)) return "reporting";
     if (/financial accounting/.test(s)) return "reporting";
     if (/computer based accounting/.test(s)) return "data";
     if (/data analytics|information management|information system|enterprise resource planning/.test(s)) return "data";
