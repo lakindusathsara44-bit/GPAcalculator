@@ -25,7 +25,7 @@ h1{font-size:clamp(34px,6vw,58px);line-height:1.08;letter-spacing:-.04em;margin:
   <div class="field"><label for="courseSelect">HND programme</label><select id="courseSelect"></select></div>
   <div class="field"><label for="moduleSearch">Search module or topic</label><input id="moduleSearch" type="search" placeholder="e.g. programming, accounting…"></div>
   <div class="field"><label for="priorityFilter">Priority</label><select id="priorityFilter"><option value="all">All priorities</option><option value="1">Priority 1 · Critical</option><option value="2">Priority 2 · High</option><option value="3">Priority 3 · Supporting</option></select></div>
-  <div class="field"><label for="typeFilter">Resource type</label><select id="typeFilter"><option value="all">All resource types</option><option value="Video lessons">Video lessons</option><option value="Notes and learning materials">Notes and learning materials</option><option value="Open textbooks">Open textbooks</option><option value="Open course materials">Open course materials</option><option value="Technical documentation and tutorials">Technical documentation and tutorials</option><option value="Interactive coding lessons">Interactive coding lessons</option><option value="Technical learning paths">Technical learning paths</option><option value="Online courses">Online courses</option><option value="OER directory">OER directory</option></select></div>
+  <div class="field"><label for="typeFilter">Resource type</label><select id="typeFilter"><option value="all">All resource types</option><option value="Video lessons">Video lessons</option><option value="Notes and learning materials">Notes and learning materials</option><option value="Open textbooks">Open textbooks</option><option value="Open course materials">Open course materials</option><option value="Lessons and practice">Lessons and practice</option><option value="Technical documentation and tutorials">Technical documentation and tutorials</option><option value="Interactive coding lessons">Interactive coding lessons</option><option value="Technical learning paths">Technical learning paths</option><option value="Online courses">Online courses</option><option value="OER directory">OER directory</option></select></div>
  </div>
  <p class="notice" style="margin-bottom:0">The module names and codes below are taken from the existing course directories in this repository. Different SLIATE curriculum batches may use different module lists.</p>
 </section>
@@ -79,7 +79,7 @@ h1{font-size:clamp(34px,6vw,58px);line-height:1.08;letter-spacing:-.04em;margin:
      const resources=(m.resources||[]).filter(r=>(p==='all'||String(r.priority)===p)&&(t==='all'||r.type===t));
      if(!resources.length) return '';
      shown+=resources.length;
-     return '<article class="module"><div class="code">'+esc(m.code)+'</div><h3>'+esc(m.name)+'</h3><div class="meta">'+resources.length+' discovery links</div><div class="resource-list">'+resources.map(resourceMarkup).join('')+'</div></article>';
+     return '<article class="module"><div class="code">'+esc(m.code)+'</div><h3>'+esc(m.name)+'</h3><div class="meta">'+resources.length+' discovery links · search suggestions, not pre-verified results</div><div class="resource-list">'+resources.map(resourceMarkup).join('')+'</div></article>';
    }).join('');
    $('resourceList').innerHTML=cards||'<div class="empty">No module resources match these filters. Try another search or reset a filter.</div>';
    $('resourceCount').textContent=shown+' resource links shown';
