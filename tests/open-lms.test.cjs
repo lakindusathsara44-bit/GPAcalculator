@@ -29,6 +29,7 @@ test('resource priorities, source types and URLs are valid', () => {
   for (const course of data.courses) for (const module of course.modules) {
     for (const resource of module.resources || []) {
       assert.ok([1, 2, 3].includes(resource.priority));
+      assert.ok(resource.priorityReason);
       assert.ok(['curated', 'discovery'].includes(resource.sourceType));
       assert.match(resource.url, /^https:\/\//);
     }
@@ -63,4 +64,19 @@ test('page includes accessible search and priority/resource filters', () => {
   for (const id of ['courseSelect', 'moduleSearch', 'priorityFilter', 'typeFilter', 'resourceList']) {
     assert.match(html, new RegExp('id="' + id + '"'));
   }
+});
+
+test('all three study-priority levels are represented', () => {
+  const levels = new Set(data.courses.flatMap(course => course.modules.flatMap(module => (module.resources || []).map(resource => resource.priority))));
+  assert.deepEqual([...levels].sort(), [1, 2, 3]);
+});
+
+test('discovery and curated resources are clearly distinguished and linked from home', () => {
+  const html = fs.readFileSync('open.lms.html', 'utf8');
+  const home = fs.readFileSync('index.html', 'utf8');
+  assert.match(html, /Discovery search/);
+  assert.match(html, /Curated platform/);
+  assert.match(html, /priorityFilter/);
+  assert.match(html, /typeFilter/);
+  assert.match(home, /href="open\.lms\.html"/);
 });
