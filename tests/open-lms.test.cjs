@@ -44,7 +44,7 @@ test('all modules expose discovery resources without claiming LMS gaps', () => {
   }
 });
 
-test('page includes accessible search and priority/resource filters', () => {
+test('curated platform entries are explicitly classified and linked', () => {\n  assert.ok(data.sources.length >= 5);\n  for (const resource of data.sources) {\n    assert.equal(resource.sourceType, 'curated');\n    assert.ok(Array.isArray(resource.courseIds) && resource.courseIds.length > 0);\n    assert.match(resource.url, /^https:\\/\\//);\n  }\n});\n\ntest('inline page script parses without syntax errors', () => {\n  const html = fs.readFileSync('open.lms.html', 'utf8');\n  const scripts = [...html.matchAll(/<script>([\\s\\S]*?)<\\/script>/g)];\n  assert.ok(scripts.length > 0);\n  assert.doesNotThrow(() => new vm.Script(scripts[scripts.length - 1][1]));\n});\n\ntest('page includes accessible search and priority/resource filters', () => {
   const html = fs.readFileSync('open.lms.html', 'utf8');
   for (const id of ['courseSelect', 'moduleSearch', 'priorityFilter', 'typeFilter', 'resourceList']) {
     assert.match(html, new RegExp('id="' + id + '"'));
