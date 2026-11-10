@@ -1,5 +1,7 @@
 const test = require('node:test');
 const assert = require('node:assert/strict');
+const fs = require('node:fs');
+const path = require('node:path');
 const catalog = require('../open-lms-data.js');
 
 test('includes all 15 HND programmes and LMS-listed module counts', () => {
@@ -19,6 +21,7 @@ test('every module has a code, title, and discovery resources', () => {
       assert.equal(module.resources.length, 2);
       assert.ok(module.resources.every(resource => resource.sourceType === 'discovery'));
       assert.ok(module.resources.every(resource => /^https:\/\//.test(resource.url)));
+      assert.ok(module.resources.every(resource => [1,2,3].includes(resource.priority) && resource.priorityReason));
     }
   }
 });
@@ -41,4 +44,15 @@ test('module search and resource filters are deterministic', () => {
   assert.ok(all.some(resource => resource.sourceType === 'curated'));
   assert.ok(all.every(resource => [1,2,3].includes(resource.priority)));
   assert.ok(catalog.filterResources(all, {type:'Video lessons', priority:'1'}).every(resource => resource.type === 'Video lessons' && resource.priority === 1));
+  const priorities = new Set(catalog.courses.flatMap(course => course.modules.flatMap(module => module.resources.map(resource => resource.priority))));
+  assert.deepEqual([...priorities].sort(), [1,2,3]);
+});
+
+test('page exposes the filters and the home page links to it', () => {
+  const page = fs.readFileSync(path.join(__dirname, '..', 'open.lms.html'), 'utf8');
+  const home = fs.readFileSync(path.join(__dirname, '..', 'index.html'), 'utf8');
+  for (const id of ['courseSelect','moduleSearch','priorityFilter','typeFilter']) assert.ok(page.includes('id="'+id+'"'));
+  assert.ok(page.includes('<script src="open-lms-data.js"></script>'));
+  assert.ok(page.includes('Discovery search'));
+  assert.ok(home.includes('href="open.lms.html"'));
 });
