@@ -114,5 +114,5 @@ test('web development guide includes W3Schools, MDN and three language video sea
   const names = guide.websites.map(item => item[0]);
   assert.ok(names.includes('W3Schools'));
   assert.ok(names.includes('MDN Web Docs'));
-  assert.deepEqual(guide.videos.map(item => item.language), ['English', 'Sinhala', 'Tamil']);
+  assert.equal(guide.videos.map(item => item.language).join(','), 'English,Sinhala,Tamil');
 });
