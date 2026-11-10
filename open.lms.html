@@ -66,7 +66,7 @@ h1{font-size:clamp(34px,6vw,58px);line-height:1.08;letter-spacing:-.04em;margin:
  courseSelect.value = data.courses.some(c=>c.id==='HNDIT') ? 'HNDIT' : data.courses[0].id;
  function resourceMarkup(r) {
    const pClass='priority-'+r.priority;
-   return '<div class="resource-row"><div><a href="'+esc(safeUrl(r.url))+'" target="_blank" rel="noopener noreferrer">'+esc(r.title)+' ↗</a><div class="meta">'+esc(r.provider)+' · '+esc(r.type)+' · <span class="tag '+pClass+'">P'+r.priority+'</span></div></div></div>';
+   return '<div class="resource-row"><div><a href="'+esc(safeUrl(r.url))+'" target="_blank" rel="noopener noreferrer">'+esc(r.title)+' ↗</a><div class="meta"><span class="tag">Discovery search</span>'+esc(r.provider)+' · '+esc(r.type)+' · <span class="tag '+pClass+'">P'+r.priority+'</span></div><p class="why">'+esc(r.priorityReason||r.reason||'Check the source and confirm it matches your module syllabus.')+'</p></div></div>';
  }
  function render() {
    const course=data.courses.find(c=>c.id===courseSelect.value) || data.courses[0];
