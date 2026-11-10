@@ -12252,6 +12252,32 @@ const OPEN_LMS_DATA = {
   ]
 };
 
+
+/* Suggested study priority: a learning aid, not an official SLIATE ranking. */
+const CORE_FOUNDATIONS = /mathemat|account|econom|program|computer|network|web design|database|statistics|chemistry|microbiology|biochemistry|food and nutrition|english|grammar|writing|reading|listening|speaking|engineering|mechanics|thermodynamics|fluid|principles|introduction|fundamental|basic|soil|crop|livestock|plant|finance|business law|management information/i;
+const APPLIED_SKILLS = /project|software|application|design|analysis|technology|training|industrial|operations|quality|digital|mobile|machine learning|research|survey|construction|manufacturing|automation|gis|system|security|marketing|auditing|taxation|tourism|hospitality|processing|production|management|communication|human resource|strategy|entrepreneur|service|energy|control|electronic|electrical|mechanical/i;
+for (const course of OPEN_LMS_DATA.courses) {
+  for (const module of course.modules) {
+    const basePriority = CORE_FOUNDATIONS.test(module.name) ? 1 : APPLIED_SKILLS.test(module.name) ? 2 : 3;
+    const resources = module.resources || [];
+    if (resources[0]) {
+      resources[0].priority = basePriority;
+      resources[0].priorityReason = basePriority === 1
+        ? 'Critical foundation: reinforce core knowledge needed for later modules.'
+        : basePriority === 2
+          ? 'High-value practice: strengthen applied skills and connect theory with real tasks.'
+          : 'Supporting enrichment: broaden context and support revision beyond the core path.';
+    }
+    if (resources[1]) {
+      const notesPriority = Math.min(3, basePriority + 1);
+      resources[1].priority = notesPriority;
+      resources[1].priorityReason = notesPriority === 2
+        ? 'High-value reinforcement: use notes and references to consolidate the core concepts.'
+        : 'Supporting enrichment: compare explanations and extend understanding where useful.';
+    }
+  }
+}
+
 function filterModules(courseId, query) {
   const course = OPEN_LMS_DATA.courses.find(item => item.id === courseId);
   if (!course) return [];
